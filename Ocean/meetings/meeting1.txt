@@ -1,0 +1,72 @@
+Phone Numbers:
+	Ajay Patel -- 812-707-1136 (Text/Call for access to info West)
+	Brian Rak -- 219-789-9460
+Patrick Stefaniak - 765-426-3028
+	Emilie Mitchell - 630-525-1862 
+	Rachel Lowden - 765-432-0138
+	David Johnson - 260-668-9080
+	Clayton Sheets - 260-223-5123
+	Thomas Miller - Number
+
+First Meeting 2/21/13
+
+Overall Project is Due: 11:59pm Monday, March 25, 2013
+ - So roughly a month, but spring break is in the midst of that as well
+
+Sharing with GitHub and through email
+- Brian will come up with a cheat sheet about GitHub for us :)
+- Dividing into two groups for now - (Will change later if needed) 
+Group I: Part I
+	- Ajay
+	- Tommy
+	- Emilie
+	- Brian	
+Group II: Part II & Part III 
+	- Clayton
+	- David
+	- Rachel
+	- Pat
+
+Code Standards:
+ - We will have an interface for each class listing the public methods 
+>> reading >> http://docs.oracle.com/javase/tutorial/java/concepts/interface.html
+ - Comments for each method should include:
+	- Description of what it does
+	- What arguments it takes
+	- What it returns 
+	- *if you change any of some other person’s code, put a comment by it stating what you changed and why/what it does - just be clear
+
+/* INTERFACE EXAMPLE */
+public interface OceanAccess {
+	public int width(); // Doesn’t take any arguments, returns an int
+	
+	public int height();
+}
+
+OCEAN CLASS:
+public class Ocean implements OceanAccess {
+…
+…
+public int width(){
+  return width;
+}
+public int height(){
+  return height;
+}
+}
+
+To Do List:
+- Create project checklist and timeline/due dates
+	-Spreadsheet in google doc
+- Find more meeting times (doodle poll?)
+	-Doodle Poll http://www.doodle.com/x8dh2qe3rskp6mg6
+		Times aren’t specific, think of 4 as ‘afternoon’ and 8 as ‘night’
+		I guess there are mornings on the weekend but.. I’d rather not
+	There's also before lab (although I know Emilie can’t do that always)
+- Create Interfaces for project modules (according to groups)
+- Understand what Interfaces are
+- Understand the different parts of the assignments
+- Start learning about GitHub
+
+Next Meeting:
+Sunday 2/24 4pm to 6pm at Informatics West -> Where the TV’s are

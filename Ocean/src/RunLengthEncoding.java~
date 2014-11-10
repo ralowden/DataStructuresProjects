@@ -1,0 +1,557 @@
+/* RunLengthEncoding.java */
+
+/**
+ *  The RunLengthEncoding class defines an object that run-length encodes an
+ *  Ocean object.  Descriptions of the methods you must implement appear below.
+ *  They include constructors of the form
+ *
+ *      public RunLengthEncoding(int i, int j, int starveTime);
+ *      public RunLengthEncoding(int i, int j, int starveTime,
+ *                               int[] runTypes, int[] runLengths) {
+ *      public RunLengthEncoding(Ocean ocean) {
+ *
+ *  that create a run-length encoding of an Ocean having width i and height j,
+ *  in which sharks starve after starveTime timesteps.
+ *
+ *  The first constructor creates a run-length encoding of an Ocean in which
+ *  every cell is empty.  The second constructor creates a run-length encoding
+ *  for which the runs are provided as parameters.  The third constructor
+ *  converts an Ocean object into a run-length encoding of that object.
+ *
+ *  See the README file accompanying this project for additional details.
+ *  
+ *  
+ *  
+ *  NOTES: The xy coordinate system starts at 0,0 (that is the first point)
+ *  the x direction measurement is length
+ *  the y direction measurement is height
+ *  the designation of numbers of cells starts at 1, so you have to be 
+ *  aware of this when you are working with the coordinate system 
+ *  
+ *  
+ */
+
+import list.*;
+
+public class RunLengthEncoding {
+
+  /**
+   *  Define any variables associated with a RunLengthEncoding object here.
+   *  These variables MUST be private.
+   */
+        private int width, height, starveTime, size, whichRun = 1;
+        private DList compressedOcean;
+
+
+  /**
+   *  The following methods are required for Part II.
+   */
+
+  /**
+   *  RunLengthEncoding() (with three parameters) is a constructor that creates
+   *  a run-length encoding of an empty ocean having width i and height j,
+   *  in which sharks starve after starveTime timesteps.
+   *  @param i is the width of the ocean.
+   *  @param j is the height of the ocean.
+   *  @param starveTime is the number of timesteps sharks survive without food.
+   */
+
+public RunLengthEncoding(int i, int j, int starveTime) {
+         
+      this.width = i;
+          this.height = j;
+          this.starveTime = starveTime;
+          this.size = i*j;
+          this.compressedOcean = new DList();
+          compressedOcean.addEnd(new Run(Ocean.EMPTY, this.size));
+          
+        }
+          
+
+
+  /**
+   *  RunLengthEncoding() (with five parameters) is a constructor that creates
+   *  a run-length encoding of an ocean having width i and height j, in which
+   *  sharks starve after starveTime timesteps.  The runs of the run-length
+   *  encoding are taken from two input arrays.  Run i has length runLengths[i]
+   *  and species runTypes[i].
+   *  @param i is the width of the ocean.
+   *  @param j is the height of the ocean.
+   *  @param starveTime is the number of timesteps sharks survive without food.
+   *  @param runTypes is an array that represents the species represented by
+   *         each run.  Each element of runTypes is Ocean.EMPTY, Ocean.FISH,
+   *         or Ocean.SHARK.  Any run of sharks is treated as a run of newborn
+   *         sharks (which are equivalent to sharks that have just eaten).
+   *  @param runLengths is an array that represents the length of each run.
+   *         The sum of all elements of the runLengths array should be i * j.
+   */
+
+  public RunLengthEncoding(int i, int j, int starveTime,
+                           int[] runTypes, int[] runLengths) {
+          this.width = i;
+          this.height = j;
+          this.starveTime = starveTime;
+          this.size = i*j;
+          this.compressedOcean = new DList();
+          
+          for(int k = 0; k < runTypes.length; k++) {
+                 //if the type is a Shark
+                  if(runTypes[k] == 1) {
+                         compressedOcean.addEnd(new Run(runTypes[k], runLengths[k], 0));
+                 }
+                  //if the type is a fish or empty
+                 if(runTypes[k] == 0 || runTypes[k] == 2) {
+                         compressedOcean.addEnd(new Run(runTypes[k], runLengths[k]));
+                 }
+                 //if the type is not valid
+                 if(runTypes[k] > 2 || runTypes[k] < 0) {
+                         System.out.println("Error: Not a valid type");
+                         System.exit(1);
+                 }         
+          }
+  }
+
+  /**
+   *  restartRuns() and nextRun() are two methods that work together to return
+   *  all the runs in the run-length encoding, one by one.  Each time
+   *  nextRun() is invoked, it returns a different run (represented as a
+   *  TypeAndSize object), until every run has been returned.  The first time
+   *  nextRun() is invoked, it returns the first run in the encoding, which
+   *  contains cell (0, 0).  After every run has been returned, nextRun()
+   *  returns null, which lets the calling program know that there are no more
+   *  runs in the encoding.
+   *
+   *  The restartRuns() method resets the enumeration, so that nextRun() will
+   *  once again enumerate all the runs as if nextRun() were being invoked for
+   *  the first time.
+   *
+   *  (Note:  Don't worry about what might happen if nextRun() is interleaved
+   *  with addFish() or addShark(); it won't happen.)
+   */
+
+  /**
+   *  restartRuns() resets the enumeration as described above, so that
+   *  nextRun() will enumerate all the runs from the beginning.
+   */
+
+  public void restartRuns() {
+          whichRun = 1;
+  }
+
+  /**
+   *  nextRun() returns the next run in the enumeration, as described above.
+   *  If the runs have been exhausted, it returns null.  The return value is
+   *  a TypeAndSize object, which is nothing more than a way to return two
+   *  integers at once.
+   *  @return the next run in the enumeration, represented by a TypeAndSize
+   *          object.
+   */
+
+  public TypeAndSize nextRun() {
+          int type, size;
+          if(whichRun > this.compressedOcean.getSize()) {
+                  return null;
+          } else {
+                  DListNode d = compressedOcean.goTo(whichRun);
+                  type = ((Run) d.getItem()).getType();
+                  size = ((Run) d.getItem()).getSize();
+                  whichRun++;
+                  return new TypeAndSize(type, size);
+          }
+  }
+
+  /**
+   *  toOcean() converts a run-length encoding of an ocean into an Ocean
+   *  object.  You will need to implement the three-parameter addShark method
+   *  in the Ocean class for this method's use.
+   *  @return the Ocean represented by a run-length encoding.
+   */
+
+  public Ocean toOcean() {
+          Ocean sea = new Ocean(width, height, starveTime);
+            int currIndex = 1;
+            DListNode currNode = compressedOcean.getFront();
+            Run currRun = (Run) currNode.getItem(); 
+            for(int y = 0; y < height; y++) {
+                  for(int x = 0; x < width; x++) {
+                          if(currIndex > currRun.getSize()) {
+                        	  currIndex = 1;
+                        	  currNode = compressedOcean.getNext(currNode);
+                        	  currRun = (Run) currNode.getItem();
+                          } if(currRun.getType() == Ocean.SHARK) {
+                                  sea.addShark(x, y, currRun.getHunger());
+                          } else if(currRun.getType() == Ocean.FISH) {
+                                  sea.addFish(x, y);
+                          } else {
+                          } currIndex++;
+                  }
+    	}
+	return sea;
+	}
+          
+
+  /**
+   *  The following method is required for Part III.
+   */
+
+  /**
+   *  RunLengthEncoding() (with one parameter) is a constructor that creates
+   *  a run-length encoding of an input Ocean.  You will need to implement
+   *  the sharkFeeding method in the Ocean class for this constructor's use.
+   *  @param sea is the ocean to encode.
+   */
+
+  public RunLengthEncoding(Ocean sea) {
+	  
+	  this.width = sea.width();
+	  this.height = sea.height();
+	  this.size = width*height;
+	  this.starveTime = sea.starveTime();
+	  this.compressedOcean = new DList();
+
+	  int runLength = 0;
+	  int type = sea.cellContents(0, 0);
+	  int hunger = sea.sharkFeeding(0, 0);
+	  
+	  for(int y = 0; y < height; y++) {
+		  for(int x = 0; x < width; x++) {
+			  int oceanType = sea.cellContents(x, y);
+			  int oceanHunger = sea.sharkFeeding(x, y);
+			  if(oceanType == type && oceanHunger == hunger) {				  
+				  runLength++;
+			  } else {
+				  compressedOcean.addEnd(new Run(type, runLength, hunger));
+				  hunger = oceanHunger;
+				  type = oceanType;
+				  runLength = 1;
+			  }
+			  
+			  
+		  }
+		  
+		  
+	}
+	  compressedOcean.addEnd(new Run(type, runLength, hunger));
+	  
+    check();
+  }
+    
+/**
+ * This helper function decreases the size of a node and removes it if its size reaches 0
+ * 
+ */
+  
+  private void decRem(DListNode d) {
+	  Run run = (Run) d.getItem();
+	  run.decreaseSize();
+	  if(run.getSize() == 0) compressedOcean.remove(d);
+  }
+  
+ /**
+  *This helper function tells you if you can combine a given node with its previous node based on their contents  
+  * @param d the node you want to combine with its previous node
+  * @param t the type of object you're comparing
+  * @param h the hunger of the object you're comparing 
+  * @return boolean: true if you can combine the two nodes
+  */
+  
+  private boolean canCombPrev(DListNode d, int t, int h) {
+	  boolean canComb = false;
+	  DListNode prev = compressedOcean.getPrev(d);
+	  if(prev.getItem() != null) {
+		  if(((Run) prev.getItem()).getType() == t && ((Run) prev.getItem()).getHunger() == h) {
+			  canComb = true;
+		  }
+	  }
+	  return canComb; 
+  }
+/**
+ * This helper function tells you if you can combine a given node with its next node based on their contents  
+  * @param d the node you want to combine with its previous node
+  * @param t the type of object you're comparing
+  * @param h the hunger of the object you're comparing 
+  * @return boolean: true if you can combine the two nodes
+ */
+  private boolean canCombNext(DListNode d, int t, int h) {
+	  boolean canComb = false;
+	  DListNode next = compressedOcean.getNext(d);
+	  if(next.getItem() != null) {
+		  if(((Run) next.getItem()).getType() == t && ((Run) next.getItem()).getHunger() == h) {
+			  canComb = true;
+		  }
+	  }
+	  return canComb;
+  }
+  
+  /**
+   *  addFish() places a fish in cell (x, y) if the cell is empty.  If the
+   *  cell is already occupied, leave the cell as it is.  The final run-length
+   *  encoding should be compressed as much as possible; there should not be
+   *  two consecutive runs of sharks with the same degree of hunger.
+   *  @param x is the x-coordinate of the cell to place a fish in.
+   *  @param y is the y-coordinate of the cell to place a fish in.
+   */
+
+  public void addFish(int x, int y) {
+	  DoubleDex cell = megaDex(x, y);
+	  int DListpos = cell.getDListPos(), Nodepos = cell.getNodePos(); 
+	  DListNode currNode = compressedOcean.goTo(DListpos);
+	  Run currRun = (Run) currNode.getItem(); 
+	  int size = currRun.getSize();
+	  
+	  if(currRun.getType() == Ocean.EMPTY) {
+		  if(Nodepos == size || Nodepos == 1) {
+			  if(canCombNext(currNode, Ocean.FISH, -1) && canCombPrev(currNode, Ocean.FISH, -1)) {
+				  ((Run) currNode.getItem()).type = Ocean.FISH;
+				  ((Run) currNode.getItem()).size = size + ((Run) compressedOcean.goTo(DListpos + 1).getItem()).size + ((Run) compressedOcean.goTo(DListpos-1).getItem()).size;
+				  compressedOcean.remove(compressedOcean.goTo(DListpos-1));
+				  compressedOcean.remove(compressedOcean.goTo(DListpos));
+			  } else if(canCombNext(currNode, Ocean.FISH, -1)) {
+				  ((Run) compressedOcean.goTo(DListpos + 1).getItem()).increaseSize();
+				  decRem(currNode);
+			  } else if(canCombPrev(currNode, Ocean.FISH, -1)) {
+				  ((Run) compressedOcean.goTo(DListpos-1).getItem()).increaseSize();
+				  decRem(currNode);
+			  } else {
+				  if(Nodepos == 1) {
+					  compressedOcean.add(new Run(Ocean.FISH, 1), DListpos);
+					  decRem(currNode);
+				  }
+				  if(Nodepos == size) {
+					  compressedOcean.add(new Run(Ocean.FISH, 1), DListpos + 1);
+				  }
+			  }
+		  } else {
+			  compressedOcean.remove(currNode);
+			  compressedOcean.add(new Run(Ocean.EMPTY, Nodepos-1), DListpos);
+			  compressedOcean.add(new Run(Ocean.FISH, 1), DListpos+1);
+			  compressedOcean.add(new Run(Ocean.EMPTY, size - Nodepos), DListpos+2);
+		  }
+	  }
+	  else System.out.println("Error: Adding to non-empty cell");
+	  check();
+	  
+  }
+  
+ /**
+  *  addShark() (with two parameters) places a newborn shark in cell (x, y) if
+  *  the cell is empty.  A "newborn" shark is equivalent to a shark that has
+  *  just eaten.  If the cell is already occupied, leave the cell as it is.
+  *  The final run-length encoding should be compressed as much as possible;
+  *  there should not be two consecutive runs of sharks with the same degree
+  *  of hunger.
+  *  @param x is the x-coordinate of the cell to place a shark in.
+  *  @param y is the y-coordinate of the cell to place a shark in.
+  */
+  public void addShark(int x, int y) {
+	  DoubleDex cell = megaDex(x, y);
+	  int DListpos = cell.getDListPos(), Nodepos = cell.getNodePos(); 
+	  DListNode currNode = compressedOcean.goTo(DListpos);
+	  Run currRun = (Run) currNode.getItem(); 
+	  int size = currRun.getSize();
+	  
+	  if(currRun.getType() == Ocean.EMPTY) {
+		  if(Nodepos == size || Nodepos == 1) {
+			  if(canCombNext(currNode, Ocean.SHARK, 0) && canCombPrev(currNode, Ocean.SHARK, 0)) {
+				  ((Run) currNode.getItem()).type = Ocean.SHARK;
+				  ((Run) currNode.getItem()).hunger = 0;
+				  ((Run) currNode.getItem()).size = size + ((Run) compressedOcean.goTo(DListpos + 1).getItem()).size + ((Run) compressedOcean.goTo(DListpos-1).getItem()).size;
+				  compressedOcean.remove(compressedOcean.goTo(DListpos-1));
+				  compressedOcean.remove(compressedOcean.goTo(DListpos));
+			  } else if(canCombNext(currNode, Ocean.SHARK, 0)) {
+				  ((Run) compressedOcean.goTo(DListpos + 1).getItem()).increaseSize();
+				  decRem(currNode);
+			  } else if(canCombPrev(currNode, Ocean.SHARK, 0)) {
+				  ((Run) compressedOcean.goTo(DListpos-1).getItem()).increaseSize();
+				  decRem(currNode);
+			  } else {
+				  if(Nodepos == 1) {
+					  compressedOcean.add(new Run(Ocean.SHARK, 1, 0), DListpos);
+					  decRem(currNode);
+				  }
+				  if(Nodepos == size) {
+					  compressedOcean.add(new Run(Ocean.SHARK, 1, 0), DListpos + 1);
+				  }
+			  }
+		  } else {
+			  compressedOcean.remove(currNode);
+			  compressedOcean.add(new Run(Ocean.EMPTY, Nodepos-1), DListpos);
+			  compressedOcean.add(new Run(Ocean.SHARK, 1, 0), DListpos+1);
+			  compressedOcean.add(new Run(Ocean.EMPTY, size - Nodepos), DListpos+2);
+		  }
+	  }
+	  else System.out.println("Error: Adding to non-empty cell");
+	  check();
+  }
+
+
+/**
+ *  check() walks through the run-length encoding and prints an error message
+ *  if two consecutive runs have the same contents, or if the sum of all run
+ *  lengths does not equal the number of cells in the ocean.
+ */
+
+private void check() {
+	if(this.compressedOcean.getSize() < 1) {
+		System.out.println("Error: Size less than 1");
+	}
+	int sum = 0;
+	Run prevRun = new Run (-2, 10, -2);
+	DListNode currNode = compressedOcean.getFront();
+	  
+	if(currNode.next().getItem() == null) {
+		sum = 1;
+	}
+	else {
+		for (int x = 1; currNode.next().getItem() != null; x ++) {
+			currNode = compressedOcean.goTo(x);
+			Run currRun = (Run) currNode.getItem();
+			if((currRun.type == prevRun.type) && (currRun.hunger == prevRun.hunger)) {
+			System.out.println("Error: type or hunger is same");
+			}
+			sum ++;
+			prevRun = currRun;
+		}
+	} if (sum != compressedOcean.getSize()) {
+		System.out.println("compressedOcean's size is: " + compressedOcean.getSize());
+		System.out.println("calculated size = " + sum);
+		System.out.println("Error: Size does not match");
+	}
+}
+
+	  
+/**
+ * This method takes a coordinate integers x and y, and returns a single index value
+ * 
+ * */
+	
+private int coordToNum(int x, int y){
+	int position;
+	position = this.width *y + x + 1;
+	return position;
+}
+
+
+/**
+ * This method takes an index value and returns a string representing the coordinate values of index on the ocean grid 
+ * * THIS NEEDS TO BE FIXED
+ * */
+
+private Coordinate numToCoord(int pos){
+	Coordinate coordinate;
+	pos = pos;
+	String coord = null;
+	int x;
+	int y;
+	x = pos % this.width;
+	y = (pos - x) / this.width;
+	coordinate = new Coordinate(x, y);
+	return coordinate;
+}
+/**
+ *  This method is a mutator. Given a coordinate it will find the correct node
+ *  This is a helper method for add shark and fish which will make changes 
+*/ 
+
+private DoubleDex megaDex(int x, int y) {
+	int index = coordToNum(x, y);
+	int sum = 0, prevsum = 0;
+	int DListpos = 1;
+	int Nodepos;
+	
+	for(int i = 1; index > sum; i++) {
+		DListNode temp = compressedOcean.goTo(i);
+		int temprunsize = ((Run) temp.getItem()).getSize();
+		prevsum = sum;
+		sum += temprunsize;
+		DListpos = i;
+	}
+	Nodepos = index - prevsum;
+	
+	return new DoubleDex(DListpos, Nodepos);
+	
+}
+  
+  public String toString() {
+          String myString = "";
+          DListNode currentNode = compressedOcean.getFront();
+          while(currentNode != compressedOcean.getHead()) {
+                  myString += "[" + currentNode.getItem().toString() + "]";
+                  currentNode = currentNode.next();
+          };
+          return myString;
+  }
+  
+  public static void main(String[] args) {
+          //Testing 1st Constructor 
+          System.out.println("Testing 1st Constructor:");
+          RunLengthEncoding const1 = new RunLengthEncoding(4, 4, 3);
+          System.out.println(const1.size);
+          System.out.println(const1.starveTime);
+          System.out.println(const1);
+          
+          //Testing 2nd Constructor
+          System.out.println("Testing 2nd Constructor");
+          int runTypes[] =   {0, 1, 2, 1, 0, 1, 2, 1};
+          int runLengths[] = {7, 4, 3, 2, 7, 2, 3, 2};
+          RunLengthEncoding const2 = new RunLengthEncoding(5, 6, 2, runTypes, runLengths);
+          System.out.println(const2);
+          
+          
+
+          //Testind 3rd Constructor 
+          System.out.println("Testing 3rd Constructor");
+          Ocean sea = new Ocean(4,4,3);
+          sea.addFish(0,1);
+        
+
+          
+          System.out.println("Here's sea: \n" + sea.toString());
+          RunLengthEncoding sea2 = new RunLengthEncoding(sea);
+          System.out.println("Here's sea2: " + sea2.toString());
+          sea2.addShark(1, 1);
+         
+          System.out.println(sea2);
+          
+          //Testing nextRun() 
+         /* System.out.println("Testing nextRun() and restartRuns()");
+          System.out.println(sea2.compressedOcean.getSize());
+          for(int i = 0; i <= sea2.compressedOcean.getSize()+1; i++) {
+                  System.out.println(sea2.nextRun());
+          }
+          System.out.println();
+          System.out.println(const2);
+          for(int i = 0; i < 3; i++) {
+                  System.out.println(const2.nextRun());
+          }
+          const2.restartRuns();
+          System.out.println(const2.nextRun());
+          
+          */
+          
+          /*Ocean sea3 = sea2.toOcean();
+          System.out.println("Original ocean:");
+          System.out.println(sea);
+          System.out.println("Original RLE");
+          System.out.println(sea2);
+          System.out.println("New ocean (should match original");
+          System.out.println(sea3);
+          */
+          
+          /*DList list = new DList();
+          
+         for(int a = 0; a < test.compressedOcean.size; a++) {
+                  list.addEnd(test.compressedOcean.goTo(a));
+          }
+          
+          for(int a = 1; a < test.compressedOcean.size; a++) {
+                  System.out.println(test.compressedOcean.goTo(a).item);
+          } 
+          
+          Coordinate coordinate = test.numToCoord(9);
+          System.out.println(coordinate.getX());
+          System.out.println(coordinate.getY());
+          */
+  }
+
+ }

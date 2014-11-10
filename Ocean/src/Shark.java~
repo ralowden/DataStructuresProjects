@@ -1,0 +1,40 @@
+
+public class Shark extends Cell {
+	
+  private int hunger = 0;
+  
+  public Shark(int x, int y, int item) {
+	  super(x, y, item);
+  }
+  
+  public Shark(int x, int y, int item, int hunger) {
+	  super(x, y, item);
+      this.hunger = hunger;
+  }
+  
+  public void setHunger(int hunger) {
+	  this.hunger = hunger;
+  }
+  
+  public int getHunger() {
+	  return hunger;
+  }
+  
+  public void increaseHunger() {
+    hunger += 1; 
+  }
+  
+  public void resetHunger() {
+    hunger = 0; 
+  }  
+  
+  /**
+   * toString() prints out the cell with the shark's hunger
+   * @return a String representing the cell, with the format (x, y, item, hunger)
+   */
+
+  public String toString() {
+	  return "(" + x + ", " + y + ", " + item + ", " + hunger + ")";
+  }
+}
+  

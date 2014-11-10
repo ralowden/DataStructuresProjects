@@ -1,0 +1,95 @@
+/* Cell.java */
+
+/**
+ *  The Cell class defines an object that is the inner component of the Ocean class.
+ *  Each cell knows it's x-coordinate and y-coordinate (in relation to the ocean),
+ *  its item (EMPTY, FISH or shark (SHARK or any integer greater than SHARK))
+ *  There are two constructors:
+ *
+ *     public Cell(int x, int y);
+ *
+ *  This creates a new cell with the item = EMPTY
+ *
+ *     public Cell(int x, int y, int item);
+ *
+ *  This creates a new cell at (x, y) with the item = item
+ */
+
+public class Cell {
+ 
+  public final static int EMPTY = 0;
+  protected int x;
+  protected int y;
+  protected int item = EMPTY;
+
+  /** 
+   *  Cell() is a constructor that creates an empty cell at the position (x, y) 
+   *  in the ocean
+   *  @param x is the x-coordinate of the Ocean
+   *  @param y is the y-coordiante of the Ocean
+   */
+
+  public Cell(int x, int y) {
+    this.x = x;
+    this.y = y;
+  }
+
+  /** 
+   *  Cell() is a constructor that creates a cell at the position (x, y) 
+   *  in the ocean with an item FISH or SHARK
+   *  @param x is the x-coordinate of the Ocean
+   *  @param y is the y-coordinate of the Ocean
+   *  @param item is the item to be placed in the cell
+   */
+
+  public Cell(int x, int y, int item) {
+    this.x = x;
+    this.y = y;
+    this.item = item;
+  }
+  
+  /**
+   *  getX() returns the x-coordinate of the Cell
+   *  @return the x-coordinate of the Cell
+   */
+
+  public int getX() {
+    return x;
+  }
+
+  /**
+   *  getY() returns the y-coordinate of the Cell
+   *  @return the y-coordinate of the Cell
+   */
+
+  public int getY() {
+    return y;
+  }
+	
+  /** 
+   *  getItem() returns the item of the Cell
+   *  @return the item of the Cell
+   */
+
+  public int getItem() {
+    return item;
+  }
+  
+  /**
+   *  setItem() changes the item of the cell
+   *  @param item is the item that you want to place in the Cell
+   */
+     
+  public void setItem(int item) {
+    this.item = item;
+  }
+  
+  /**
+   * toString() prints out the cell
+   * @return a String representing the cell, with the format (x, y, item)
+   */
+
+  public String toString() {
+    return "(" + x + ", " + y + ", " + item + ")   ";
+  }
+}
