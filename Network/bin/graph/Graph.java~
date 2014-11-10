@@ -1,0 +1,233 @@
+/*  THIS IS THE GRAPH ADT.  NOTE: An id of a vertex is denoted by its location on the board by coordinate ij like below.
+ * 
+                 -----------------------------------------
+                 |    | 10 | 20 | 30 | 40 | 50 | 60 |    |
+                 -----------------------------------------
+                 | 01 | 11 | 21 | 31 | 41 | 51 | 61 | 71 |
+                 -----------------------------------------
+                 | 02 | 12 | 22 | 32 | 42 | 52 | 62 | 72 |
+                 -----------------------------------------
+                 | 03 | 13 | 23 | 33 | 43 | 53 | 63 | 73 |
+                 -----------------------------------------
+                 | 04 | 14 | 24 | 34 | 44 | 54 | 64 | 74 |
+                 -----------------------------------------
+                 | 05 | 15 | 25 | 35 | 45 | 55 | 65 | 75 |
+                 -----------------------------------------
+                 | 06 | 16 | 26 | 36 | 46 | 56 | 66 | 76 |
+                 -----------------------------------------
+                 |    | 17 | 27 | 37 | 47 | 57 | 67 |    |
+                 -----------------------------------------
+ */
+
+package graph;
+
+import List.*;
+
+public class Graph {
+	
+	private int size;    // number of vertices
+	private EList adj; // contains a list of all edges incident on each vertex
+
+	public Graph() {
+		adj = new EList();
+		size = adj.length();
+	}
+	private void updateSize() {
+		size = adj.length();
+	}
+	/**
+	 * @param v Vertex
+	 * @return an iterable collection of the edges incident upon vertex v
+	 */
+	public EList incidentEdges(int id) {
+		return adj.findEntry(id).value();
+	}
+	/**
+	 * Inserts a vertex into this graph.  If a vertex already exists do nothing.
+	 * @param data the in which to be inserted
+	 * @param index the index (ij) of the vertex inserted.
+	 */
+	public void insertVertex(int id, int color) {
+		if (adj.findEntry(id) != null) {
+			return;
+		}
+		adj.insertBack(new Entry(new Vertex(id, color), new EList()));
+		this.updateSize();
+	}
+	/**
+	 * 
+	 * @param v index of Vertex v
+	 * @param w index of Vertex w
+	 * @return returns true if Vertex at index v and Vertex at index w are adjacent
+	 */
+	public boolean areAdjacent(int vid, int wid) {
+		EList e = adj.findEntry(vid).value();
+		
+		if (e == null) {
+			return false;
+		}
+		
+		Entry found = e.findEntry(wid);
+		
+		if (found == null) {
+			return false;
+		}
+		else return true;
+		
+	}
+	/**
+	 * Links two vertices with an edge.  An edge is represented by two vertices listed in their respective lists.
+	 * @param vid the first vertex
+	 * @param wid the second vertex
+	 */
+	public void insertEdge(int vid, int wid) {
+		Entry e = adj.findEntry(vid);
+		Entry f = adj.findEntry(wid);
+		
+		if (e != null && f != null) {
+			e.value().insertBack(f.key());
+			f.value().insertBack(e.key());
+		}
+	}
+	/**
+	 * Removes a vertex from this graph.  If the vertex does not resist, this method does nothing.
+	 * @param id the id of the vertex to be removed.
+	 */
+	public void removeVertex(int id) {
+		
+		Entry e = adj.findEntry(id);
+		
+		// first remove links to this vertex in the graph.  Then remove links to that vertex.
+		if (e != null) {
+			while (e.value().length() != 0) {
+				DListNode d = e.value().front();
+				this.removeEdge(e.key().id(), ((Vertex) d.item).id());
+			}
+		}
+		// finally remove the entry and update the size.
+		adj.removeEntry(e);
+		this.updateSize();
+	}
+	
+	public void removeEdge(int vid, int wid) {
+		Entry e = adj.findEntry(vid);
+		Entry f = adj.findEntry(wid);
+		
+		if (e != null && f != null) {
+			e.value().removeVertex(f);
+			f.value().removeVertex(e);
+		}
+	}
+	/**
+	 * If an Entry with a vertex of id ## exists, then return it, otherwise return null
+	 * @param id the id of the entry you wish to look for
+	 * @return the Entry found
+	 */
+	public Vertex findPiece(int id) {
+		Entry e = adj.findEntry(id);
+		return (e == null) ? null : e.key();
+	}
+
+    public boolean canPlaceNeighbors(int old_id, int new_id, int color) {
+	// old_id and new_id are used to determine if the move is an add or a step
+	// if the move is an add, the old_id is designated as -1
+	// otherwise, the move is a step and 
+	// the old_id is the original position and the new_id is the new position that 
+	// the piece(vertex) is being moved to
+
+        int count = 0;
+        int found_id = -1;
+        if(old_id != -1) {
+	    this.removeVertex(old_id);
+	}
+	    for (int i = ((Math.round(new_id / 10) * 10) - 10); i < ((Math.round(new_id / 10) * 10) + 11); i = i + 10) {
+	    for(int j = new_id % 10 - 1; j < new_id % 10 + 2; j++) { 
+		Vertex found = findPiece(i + j);
+		if(found != null) {
+                    if(found.id() != new_id) {
+		      if(found.color() == color) {
+			found_id = found.id() ;
+			count++;
+		      }
+		    }
+		}
+	    }
+	    }
+	    if(old_id != -1) {
+		this.insertVertex(old_id, color);
+	    }
+   
+        if(count > 1) {
+	    return false;
+	} else if (count == 1) {
+	    int count2 = 0;
+            for (int k = ((Math.round(found_id / 10) * 10) - 10); k < ((Math.round(found_id / 10) * 10) + 11); k = k + 10) {
+		for(int l = found_id % 10 - 1; l < found_id % 10 + 2; l++) {
+		    Vertex found2 = findPiece(k + l);
+		    if(found2 != null) {
+			if(found2.id() != found_id) {
+			  if(found2.color() == color) {
+			     count2++;
+			  }
+			}
+		    }
+		}
+	    }
+	    if(count2 > 0) {
+		return false;
+	    } else {
+                return true;
+	    }
+	} else {
+	    return true;
+	}
+    }
+        
+	
+	@Override
+	public String toString() {
+		return adj.toString();
+	}
+
+    public String prettyPrint() {
+	String ans = "---------------------------------";
+	for (int i = 0; i < 8; i++) {
+	    ans = ans + "\n| ";
+	    for (int j = 0; j < 8; j++) {
+		Vertex found = findPiece(i + (10 * j));
+		if (found != null) {
+                    if (found.color() == 1) {
+		      ans = ans + "B" + " | ";
+                    } else {
+			ans = ans + "W" + " | ";
+		    }
+                } else {
+		    ans = ans + "  | ";
+		} 
+	    }
+	    ans = ans + "\n---------------------------------";
+	}
+	return ans;
+    }
+
+   public static void main(String[] args) {
+	Graph board = new Graph();
+        System.out.println(board);
+        board.insertVertex(10, 1);
+        board.insertVertex(1, 2);
+        board.insertEdge(10, 1);
+        System.out.println("Testing neighbors at 11 with color B(1)" + board.canPlaceNeighbors(-1, 11, 1));
+        board.insertVertex(11, 1);
+        System.out.println("Testing neighbors at 12 with color B(1)" + board.canPlaceNeighbors(-1, 12, 1));
+        System.out.println("Testing neighbors at 21 with color B(1) step from 11" + board.canPlaceNeighbors(11, 12, 1));
+        board.insertVertex(22, 1);
+        System.out.println("Testing neighbors at 21 with color B(1) step from 11" + board.canPlaceNeighbors(11, 12, 1));
+        System.out.println("After inserting vertex with color 1 at id 10 \n and vertex with color 2 at id 1: \n" + board);
+        System.out.println(board.prettyPrint());
+
+    }
+
+ 
+
+
+}

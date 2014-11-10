@@ -1,0 +1,6809 @@
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+The piece is good.
+true piece [add to 72]
+Placing add move
+Piece [add to 72] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 72]
+The piece is good.
+true piece [add to 72]
+Placing add move
+Piece [add to 72] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 51]
+Placing add move
+Piece [add to 51] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 51]
+The piece is good.
+true piece [add to 51]
+Placing add move
+Piece [add to 51] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+The piece is good.
+true piece [add to 31]
+Placing add move
+Piece [add to 31] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 31]
+The piece is good.
+true piece [add to 31]
+Placing add move
+Piece [add to 31] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 21]
+Placing add move
+Piece [add to 21] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 21]
+The piece is good.
+true piece [add to 21]
+Placing add move
+Piece [add to 21] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 63]
+Placing add move
+Piece [add to 63] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 63]
+true
+The piece is good.
+true piece [add to 63]
+Placing add move
+Piece [add to 63] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 21
+going up
+Piece [add to 24] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 24]
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 21
+going up
+Piece [add to 24] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+The piece is good.
+true piece [add to 33]
+Placing add move
+x.id is: 33d.item: 31
+going up
+Piece [add to 33] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 33]
+The piece is good.
+true piece [add to 33]
+Placing add move
+x.id is: 33d.item: 31
+going up
+Piece [add to 33] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 23]
+Placing add move
+x.id is: 23d.item: 21
+going up
+x.id is: 23d.item: 24
+Piece [add to 23] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 23]
+true
+The piece is good.
+true piece [add to 23]
+Placing add move
+x.id is: 23d.item: 21
+going up
+x.id is: 23d.item: 24
+Piece [add to 23] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 02]
+Placing add move
+Piece [add to 02] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 02]
+The piece is good.
+true piece [add to 02]
+Placing add move
+Piece [add to 02] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+The piece is good.
+true piece [add to 67]
+Placing add move
+x.id is: 67d.item: 63
+going up
+Piece [add to 67] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 67]
+The piece is good.
+true piece [add to 67]
+Placing add move
+x.id is: 67d.item: 63
+going up
+Piece [add to 67] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Cell in opponent's goal
+The piece is good.
+true piece [add to 06]
+Placing add move
+x.id is: 6d.item: 2
+going up
+Piece [add to 06] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 06]
+The piece is good.
+true piece [add to 06]
+Placing add move
+x.id is: 6d.item: 2
+going up
+Piece [add to 06] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 52]
+Placing add move
+x.id is: 52d.item: 51
+going up
+Piece [add to 52] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 52]
+true
+The piece is good.
+true piece [add to 52]
+Placing add move
+x.id is: 52d.item: 51
+going up
+Piece [add to 52] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+Target cell is not empty
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 63
+going up
+x.id is: 66d.item: 67
+Piece [add to 66] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 66]
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 63
+going up
+x.id is: 66d.item: 67
+Piece [add to 66] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+Cell in opponent's goal
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 37]
+Placing add move
+x.id is: 37d.item: 31
+going up
+x.id is: 37d.item: 33
+Piece [add to 37] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 37]
+The piece is good.
+true piece [add to 37]
+Placing add move
+x.id is: 37d.item: 31
+going up
+x.id is: 37d.item: 33
+Piece [add to 37] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+The piece is good.
+true piece [add to 14]
+Placing add move
+Piece [add to 14] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 14]
+The piece is good.
+true piece [add to 14]
+Placing add move
+Piece [add to 14] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+The piece is good.
+true piece [add to 55]
+Placing add move
+x.id is: 55d.item: 51
+going up
+x.id is: 55d.item: 52
+Piece [add to 55] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 55]
+The piece is good.
+true piece [add to 55]
+Placing add move
+x.id is: 55d.item: 51
+going up
+x.id is: 55d.item: 52
+Piece [add to 55] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+Cell in opponent's goal
+false
+This piece would result in a cluster
+true
+The piece is good.
+true piece [add to 41]
+Placing add move
+Piece [add to 41] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 41]
+true
+The piece is good.
+true piece [add to 41]
+Placing add move
+Piece [add to 41] placed.
+numberOfPieces: 17
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 10]
+Placing add move
+x.id is: 10d.item: 14
+Piece [add to 10] placed.
+numberOfPieces: 18
+Second MachinePlayer makes a move: [add to 10]
+true
+The piece is good.
+true piece [add to 10]
+Placing add move
+x.id is: 10d.item: 14
+Piece [add to 10] placed.
+numberOfPieces: 18
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 43]
+Placing add move
+x.id is: 43d.item: 41
+going up
+Piece [add to 43] placed.
+numberOfPieces: 19
+MachinePlayer makes a move: [add to 43]
+true
+The piece is good.
+true piece [add to 43]
+Placing add move
+x.id is: 43d.item: 41
+going up
+Piece [add to 43] placed.
+numberOfPieces: 19
+Cell in opponent's goal
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 54]
+Placing add move
+x.id is: 54d.item: 51
+going up
+x.id is: 54d.item: 52
+x.id is: 54d.item: 55
+Piece [add to 54] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [add to 54]
+true
+The piece is good.
+true piece [add to 54]
+Placing add move
+x.id is: 54d.item: 51
+going up
+x.id is: 54d.item: 52
+x.id is: 54d.item: 55
+Piece [add to 54] placed.
+numberOfPieces: 20
+Target cell is not empty
+Target cell is not empty
+x.id is: 63d.item: 67
+x.id is: 63d.item: 66
+true
+The piece is good.
+true piece [step from 63 to 25]
+Placing step move.
+x.id is: 25d.item: 21
+going up
+x.id is: 25d.item: 24
+x.id is: 25d.item: 23
+Piece [step from 63 to 25] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 63 to 25]
+x.id is: 63d.item: 67
+x.id is: 63d.item: 66
+true
+The piece is good.
+true piece [step from 63 to 25]
+Placing step move.
+x.id is: 25d.item: 21
+going up
+x.id is: 25d.item: 24
+x.id is: 25d.item: 23
+Piece [step from 63 to 25] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 37d.item: 31
+going up
+x.id is: 37d.item: 33
+The piece is good.
+true piece [step from 37 to 16]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 16d.item: 14
+going up
+x.id is: 16d.item: 10
+Piece [step from 37 to 16] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 37 to 16]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 37d.item: 31
+going up
+x.id is: 37d.item: 33
+The piece is good.
+true piece [step from 37 to 16]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 16d.item: 14
+going up
+x.id is: 16d.item: 10
+Piece [step from 37 to 16] placed.
+numberOfPieces: 20
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 6d.item: 2
+going up
+false
+This piece would result in a cluster
+x.id is: 2d.item: 6
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 33d.item: 31
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 14d.item: 10
+going up
+x.id is: 14d.item: 16
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 25d.item: 21
+going up
+x.id is: 25d.item: 24
+x.id is: 25d.item: 23
+false
+This piece would result in a cluster
+Cell in opponent's goal
+x.id is: 31d.item: 33
+true
+The piece is good.
+true piece [step from 31 to 71]
+Placing step move.
+x.id is: 71d.item: 72
+Piece [step from 31 to 71] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 31 to 71]
+x.id is: 31d.item: 33
+true
+The piece is good.
+true piece [step from 31 to 71]
+Placing step move.
+x.id is: 71d.item: 72
+Piece [step from 31 to 71] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 54d.item: 51
+going up
+x.id is: 54d.item: 52
+x.id is: 54d.item: 55
+The piece is good.
+true piece [step from 54 to 37]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 37d.item: 33
+going up
+Piece [step from 54 to 37] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 54 to 37]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 54d.item: 51
+going up
+x.id is: 54d.item: 52
+x.id is: 54d.item: 55
+The piece is good.
+true piece [step from 54 to 37]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 37d.item: 33
+going up
+Piece [step from 54 to 37] placed.
+numberOfPieces: 20
+x.id is: 66d.item: 67
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 43d.item: 41
+going up
+The piece is good.
+true piece [step from 43 to 64]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+Piece [step from 43 to 64] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 43 to 64]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 43d.item: 41
+going up
+The piece is good.
+true piece [step from 43 to 64]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+Piece [step from 43 to 64] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 21
+going up
+x.id is: 24d.item: 23
+x.id is: 24d.item: 25
+true
+The piece is good.
+true piece [step from 24 to 44]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 44d.item: 41
+going up
+Piece [step from 24 to 44] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 24 to 44]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 21
+going up
+x.id is: 24d.item: 23
+x.id is: 24d.item: 25
+true
+The piece is good.
+true piece [step from 24 to 44]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 44d.item: 41
+going up
+Piece [step from 24 to 44] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 6d.item: 2
+going up
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 66d.item: 67
+x.id is: 66d.item: 64
+going up
+false
+This piece would result in a cluster
+x.id is: 71d.item: 72
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+false
+This piece would result in a cluster
+x.id is: 71d.item: 72
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 25d.item: 21
+going up
+x.id is: 25d.item: 23
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 6d.item: 2
+going up
+false
+This piece would result in a cluster
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+x.id is: 41d.item: 44
+true
+The piece is good.
+true piece [step from 41 to 12]
+Placing step move.
+x.id is: 12d.item: 10
+going up
+x.id is: 12d.item: 16
+x.id is: 12d.item: 14
+Piece [step from 41 to 12] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 41 to 12]
+x.id is: 41d.item: 44
+true
+The piece is good.
+true piece [step from 41 to 12]
+Placing step move.
+x.id is: 12d.item: 14
+x.id is: 12d.item: 10
+going up
+x.id is: 12d.item: 16
+Piece [step from 41 to 12] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 23d.item: 21
+going up
+x.id is: 23d.item: 25
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 55d.item: 51
+going up
+x.id is: 55d.item: 52
+true
+The piece is good.
+true piece [step from 55 to 57]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 57d.item: 51
+going up
+x.id is: 57d.item: 52
+Piece [step from 55 to 57] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 55 to 57]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 55d.item: 51
+going up
+x.id is: 55d.item: 52
+true
+The piece is good.
+true piece [step from 55 to 57]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 57d.item: 51
+going up
+x.id is: 57d.item: 52
+Piece [step from 55 to 57] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+x.id is: 33d.item: 37
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 25d.item: 21
+going up
+x.id is: 25d.item: 23
+false
+This piece would result in a cluster
+Target cell is not empty
+x.id is: 33d.item: 37
+false
+This piece would result in a cluster
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 6d.item: 2
+going up
+true
+The piece is good.
+true piece [step from 06 to 56]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 52
+x.id is: 56d.item: 57
+Piece [step from 06 to 56] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 06 to 56]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 6d.item: 2
+going up
+true
+The piece is good.
+true piece [step from 06 to 56]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 52
+x.id is: 56d.item: 57
+Piece [step from 06 to 56] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+x.id is: 10d.item: 14
+x.id is: 10d.item: 16
+x.id is: 10d.item: 12
+false
+This piece would result in a cluster
+x.id is: 10d.item: 14
+x.id is: 10d.item: 16
+x.id is: 10d.item: 12
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+x.id is: 21d.item: 25
+x.id is: 21d.item: 23
+true
+The piece is good.
+true piece [step from 21 to 55]
+Placing step move.
+x.id is: 55d.item: 51
+going up
+x.id is: 55d.item: 52
+x.id is: 55d.item: 57
+x.id is: 55d.item: 56
+Piece [step from 21 to 55] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 21 to 55]
+x.id is: 21d.item: 23
+x.id is: 21d.item: 25
+true
+The piece is good.
+true piece [step from 21 to 55]
+Placing step move.
+x.id is: 55d.item: 51
+going up
+x.id is: 55d.item: 52
+x.id is: 55d.item: 57
+x.id is: 55d.item: 56
+Piece [step from 21 to 55] placed.
+numberOfPieces: 20
+x.id is: 71d.item: 72
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 52
+x.id is: 56d.item: 57
+x.id is: 56d.item: 55
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 72d.item: 71
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 12d.item: 10
+going up
+x.id is: 12d.item: 16
+x.id is: 12d.item: 14
+The piece is good.
+true piece [step from 12 to 21]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 23
+x.id is: 21d.item: 25
+Piece [step from 12 to 21] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 12 to 21]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 12d.item: 14
+x.id is: 12d.item: 16
+x.id is: 12d.item: 10
+going up
+The piece is good.
+true piece [step from 12 to 21]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 25
+x.id is: 21d.item: 23
+Piece [step from 12 to 21] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 66
+going up
+x.id is: 67d.item: 64
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 16d.item: 14
+going up
+x.id is: 16d.item: 10
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 16d.item: 14
+going up
+x.id is: 16d.item: 10
+true
+The piece is good.
+true piece [step from 16 to 27]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 25
+going up
+x.id is: 27d.item: 23
+x.id is: 27d.item: 21
+Piece [step from 16 to 27] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 16 to 27]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 16d.item: 10
+going up
+x.id is: 16d.item: 14
+true
+The piece is good.
+true piece [step from 16 to 27]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 23
+going up
+x.id is: 27d.item: 25
+x.id is: 27d.item: 21
+Piece [step from 16 to 27] placed.
+numberOfPieces: 20
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 25d.item: 23
+going up
+x.id is: 25d.item: 21
+x.id is: 25d.item: 27
+true
+The piece is good.
+true piece [step from 25 to 43]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 43d.item: 44
+Piece [step from 25 to 43] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 25 to 43]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 25d.item: 23
+going up
+x.id is: 25d.item: 21
+x.id is: 25d.item: 27
+true
+The piece is good.
+true piece [step from 25 to 43]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 43d.item: 44
+Piece [step from 25 to 43] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 37d.item: 33
+going up
+true
+The piece is good.
+true piece [step from 37 to 12]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 12d.item: 14
+x.id is: 12d.item: 10
+going up
+Piece [step from 37 to 12] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 37 to 12]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 37d.item: 33
+going up
+true
+The piece is good.
+true piece [step from 37 to 12]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 12d.item: 10
+going up
+x.id is: 12d.item: 14
+Piece [step from 37 to 12] placed.
+numberOfPieces: 20
+Target cell is not empty
+x.id is: 71d.item: 72
+The piece is good.
+true piece [step from 71 to 16]
+Placing step move.
+x.id is: 16d.item: 10
+going up
+x.id is: 16d.item: 14
+x.id is: 16d.item: 12
+Piece [step from 71 to 16] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 71 to 16]
+x.id is: 71d.item: 72
+The piece is good.
+true piece [step from 71 to 16]
+Placing step move.
+x.id is: 16d.item: 14
+going up
+x.id is: 16d.item: 10
+x.id is: 16d.item: 12
+Piece [step from 71 to 16] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 66
+going up
+x.id is: 67d.item: 64
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 55d.item: 51
+going up
+x.id is: 55d.item: 52
+x.id is: 55d.item: 57
+x.id is: 55d.item: 56
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 23
+going up
+x.id is: 27d.item: 21
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+x.id is: 10d.item: 14
+x.id is: 10d.item: 12
+x.id is: 10d.item: 16
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 12d.item: 14
+x.id is: 12d.item: 16
+x.id is: 12d.item: 10
+going up
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 66
+going up
+x.id is: 67d.item: 64
+true
+The piece is good.
+true piece [step from 67 to 20]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 20d.item: 23
+x.id is: 20d.item: 21
+x.id is: 20d.item: 27
+Piece [step from 67 to 20] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 67 to 20]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 66
+going up
+x.id is: 67d.item: 64
+true
+The piece is good.
+true piece [step from 67 to 20]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 20d.item: 23
+x.id is: 20d.item: 21
+x.id is: 20d.item: 27
+Piece [step from 67 to 20] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 52
+x.id is: 56d.item: 57
+x.id is: 56d.item: 55
+true
+The piece is good.
+true piece [step from 56 to 06]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 6d.item: 2
+going up
+Piece [step from 56 to 06] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 56 to 06]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 52
+x.id is: 56d.item: 57
+x.id is: 56d.item: 55
+true
+The piece is good.
+true piece [step from 56 to 06]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 6d.item: 2
+going up
+Piece [step from 56 to 06] placed.
+numberOfPieces: 20
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 57d.item: 51
+going up
+x.id is: 57d.item: 52
+x.id is: 57d.item: 55
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 23d.item: 21
+going up
+x.id is: 23d.item: 27
+x.id is: 23d.item: 20
+true
+The piece is good.
+true piece [step from 23 to 17]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 17d.item: 14
+going up
+x.id is: 17d.item: 16
+x.id is: 17d.item: 10
+x.id is: 17d.item: 12
+Piece [step from 23 to 17] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 23 to 17]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 23d.item: 21
+going up
+x.id is: 23d.item: 27
+x.id is: 23d.item: 20
+true
+The piece is good.
+true piece [step from 23 to 17]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 17d.item: 10
+going up
+x.id is: 17d.item: 14
+x.id is: 17d.item: 12
+x.id is: 17d.item: 16
+Piece [step from 23 to 17] placed.
+numberOfPieces: 20
+>>>> Second MachinePlayer <<<< WINS!
+
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+The piece is good.
+true piece [add to 23]
+Placing add move
+Piece [add to 23] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 23]
+The piece is good.
+true piece [add to 23]
+Placing add move
+Piece [add to 23] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+The piece is good.
+true piece [add to 21]
+Placing add move
+x.id is: 21d.item: 23
+Piece [add to 21] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 21]
+The piece is good.
+true piece [add to 21]
+Placing add move
+x.id is: 21d.item: 23
+Piece [add to 21] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 33]
+Placing add move
+Piece [add to 33] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 33]
+true
+The piece is good.
+true piece [add to 33]
+Placing add move
+Piece [add to 33] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+The piece is good.
+true piece [add to 63]
+Placing add move
+Piece [add to 63] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 63]
+The piece is good.
+true piece [add to 63]
+Placing add move
+Piece [add to 63] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 46]
+Placing add move
+Piece [add to 46] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 46]
+The piece is good.
+true piece [add to 46]
+Placing add move
+Piece [add to 46] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+The piece is good.
+true piece [add to 16]
+Placing add move
+Piece [add to 16] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 16]
+The piece is good.
+true piece [add to 16]
+Placing add move
+Piece [add to 16] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 05]
+Placing add move
+Piece [add to 05] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 05]
+The piece is good.
+true piece [add to 05]
+Placing add move
+Piece [add to 05] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 13]
+Placing add move
+x.id is: 13d.item: 16
+Piece [add to 13] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 13]
+The piece is good.
+true piece [add to 13]
+Placing add move
+x.id is: 13d.item: 16
+Piece [add to 13] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 76]
+Placing add move
+Piece [add to 76] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 76]
+The piece is good.
+true piece [add to 76]
+Placing add move
+Piece [add to 76] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 32]
+Placing add move
+x.id is: 32d.item: 33
+Piece [add to 32] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 32]
+true
+The piece is good.
+true piece [add to 32]
+Placing add move
+x.id is: 32d.item: 33
+Piece [add to 32] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 06]
+Placing add move
+x.id is: 6d.item: 5
+going up
+Piece [add to 06] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 06]
+true
+The piece is good.
+true piece [add to 06]
+Placing add move
+x.id is: 6d.item: 5
+going up
+Piece [add to 06] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+false
+This piece would result in a cluster
+true
+The piece is good.
+true piece [add to 27]
+Placing add move
+x.id is: 27d.item: 23
+going up
+x.id is: 27d.item: 21
+Piece [add to 27] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 27]
+true
+The piece is good.
+true piece [add to 27]
+Placing add move
+x.id is: 27d.item: 23
+going up
+x.id is: 27d.item: 21
+Piece [add to 27] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 03]
+Placing add move
+x.id is: 3d.item: 5
+x.id is: 3d.item: 6
+Piece [add to 03] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 03]
+The piece is good.
+true piece [add to 03]
+Placing add move
+x.id is: 3d.item: 5
+x.id is: 3d.item: 6
+Piece [add to 03] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 63
+going up
+Piece [add to 66] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 66]
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 63
+going up
+Piece [add to 66] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 65]
+Placing add move
+x.id is: 65d.item: 63
+going up
+x.id is: 65d.item: 66
+Piece [add to 65] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 65]
+true
+The piece is good.
+true piece [add to 65]
+Placing add move
+x.id is: 65d.item: 63
+going up
+x.id is: 65d.item: 66
+Piece [add to 65] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 53]
+Placing add move
+Piece [add to 53] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 53]
+true
+The piece is good.
+true piece [add to 53]
+Placing add move
+Piece [add to 53] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+The piece is good.
+true piece [add to 61]
+Placing add move
+x.id is: 61d.item: 63
+x.id is: 61d.item: 66
+x.id is: 61d.item: 65
+Piece [add to 61] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 61]
+The piece is good.
+true piece [add to 61]
+Placing add move
+x.id is: 61d.item: 63
+x.id is: 61d.item: 66
+x.id is: 61d.item: 65
+Piece [add to 61] placed.
+numberOfPieces: 17
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 57]
+Placing add move
+x.id is: 57d.item: 53
+going up
+Piece [add to 57] placed.
+numberOfPieces: 18
+Second MachinePlayer makes a move: [add to 57]
+true
+The piece is good.
+true piece [add to 57]
+Placing add move
+x.id is: 57d.item: 53
+going up
+Piece [add to 57] placed.
+numberOfPieces: 18
+Cell in opponent's goal
+The piece is good.
+true piece [add to 11]
+Placing add move
+x.id is: 11d.item: 16
+x.id is: 11d.item: 13
+Piece [add to 11] placed.
+numberOfPieces: 19
+MachinePlayer makes a move: [add to 11]
+The piece is good.
+true piece [add to 11]
+Placing add move
+x.id is: 11d.item: 16
+x.id is: 11d.item: 13
+Piece [add to 11] placed.
+numberOfPieces: 19
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+false
+This piece would result in a cluster
+Cell in opponent's goal
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+false
+This piece would result in a cluster
+Target cell is not empty
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+x.id is: 24d.item: 27
+Piece [add to 24] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [add to 24]
+true
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+x.id is: 24d.item: 27
+Piece [add to 24] placed.
+numberOfPieces: 20
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 33d.item: 32
+going up
+The piece is good.
+true piece [step from 33 to 41]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 41d.item: 46
+Piece [step from 33 to 41] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 33 to 41]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 33d.item: 32
+going up
+The piece is good.
+true piece [step from 33 to 41]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 41d.item: 46
+Piece [step from 33 to 41] placed.
+numberOfPieces: 20
+false
+This piece would result in a cluster
+The piece is good.
+true piece [step from 32 to 45]
+Placing step move.
+x.id is: 45d.item: 46
+x.id is: 45d.item: 41
+going up
+Piece [step from 32 to 45] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 32 to 45]
+The piece is good.
+true piece [step from 32 to 45]
+Placing step move.
+x.id is: 45d.item: 46
+x.id is: 45d.item: 41
+going up
+Piece [step from 32 to 45] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 23d.item: 21
+going up
+x.id is: 23d.item: 27
+x.id is: 23d.item: 24
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+Target cell is not empty
+x.id is: 11d.item: 16
+x.id is: 11d.item: 13
+true
+The piece is good.
+true piece [step from 11 to 36]
+Placing step move.
+Piece [step from 11 to 36] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 11 to 36]
+x.id is: 11d.item: 16
+x.id is: 11d.item: 13
+true
+The piece is good.
+true piece [step from 11 to 36]
+Placing step move.
+Piece [step from 11 to 36] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 23
+going up
+x.id is: 27d.item: 21
+x.id is: 27d.item: 24
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+x.id is: 24d.item: 27
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 66d.item: 63
+going up
+x.id is: 66d.item: 65
+x.id is: 66d.item: 61
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 45d.item: 46
+x.id is: 45d.item: 41
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+x.id is: 24d.item: 27
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 16d.item: 13
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 16d.item: 13
+going up
+The piece is good.
+true piece [step from 16 to 50]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 50d.item: 53
+x.id is: 50d.item: 57
+Piece [step from 16 to 50] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 16 to 50]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 16d.item: 13
+going up
+The piece is good.
+true piece [step from 16 to 50]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 50d.item: 53
+x.id is: 50d.item: 57
+Piece [step from 16 to 50] placed.
+numberOfPieces: 20
+x.id is: 41d.item: 46
+x.id is: 41d.item: 45
+false
+This piece would result in a cluster
+x.id is: 3d.item: 5
+x.id is: 3d.item: 6
+The piece is good.
+true piece [step from 03 to 11]
+Placing step move.
+x.id is: 11d.item: 13
+Piece [step from 03 to 11] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 03 to 11]
+x.id is: 3d.item: 5
+x.id is: 3d.item: 6
+The piece is good.
+true piece [step from 03 to 11]
+Placing step move.
+x.id is: 11d.item: 13
+Piece [step from 03 to 11] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+x.id is: 24d.item: 27
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 45d.item: 46
+x.id is: 45d.item: 41
+going up
+true
+The piece is good.
+true piece [step from 45 to 40]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 40d.item: 46
+x.id is: 40d.item: 41
+Piece [step from 45 to 40] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 45 to 40]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 45d.item: 46
+x.id is: 45d.item: 41
+going up
+true
+The piece is good.
+true piece [step from 45 to 40]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 40d.item: 46
+x.id is: 40d.item: 41
+Piece [step from 45 to 40] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 46d.item: 41
+going up
+x.id is: 46d.item: 40
+true
+The piece is good.
+true piece [step from 46 to 62]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 62d.item: 63
+x.id is: 62d.item: 66
+x.id is: 62d.item: 65
+x.id is: 62d.item: 61
+going up
+Piece [step from 46 to 62] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 46 to 62]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 46d.item: 41
+going up
+x.id is: 46d.item: 40
+true
+The piece is good.
+true piece [step from 46 to 62]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 62d.item: 63
+x.id is: 62d.item: 65
+x.id is: 62d.item: 61
+going up
+x.id is: 62d.item: 66
+Piece [step from 46 to 62] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 23
+going up
+x.id is: 27d.item: 21
+x.id is: 27d.item: 24
+The piece is good.
+true piece [step from 27 to 45]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 40
+Piece [step from 27 to 45] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 27 to 45]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 21
+going up
+x.id is: 27d.item: 24
+x.id is: 27d.item: 23
+The piece is good.
+true piece [step from 27 to 45]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 40
+Piece [step from 27 to 45] placed.
+numberOfPieces: 20
+x.id is: 61d.item: 63
+x.id is: 61d.item: 66
+x.id is: 61d.item: 65
+x.id is: 61d.item: 62
+true
+The piece is good.
+true piece [step from 61 to 42]
+Placing step move.
+x.id is: 42d.item: 41
+going up
+x.id is: 42d.item: 40
+x.id is: 42d.item: 45
+Piece [step from 61 to 42] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 61 to 42]
+x.id is: 61d.item: 63
+x.id is: 61d.item: 65
+x.id is: 61d.item: 66
+x.id is: 61d.item: 62
+true
+The piece is good.
+true piece [step from 61 to 42]
+Placing step move.
+x.id is: 42d.item: 41
+going up
+x.id is: 42d.item: 40
+x.id is: 42d.item: 45
+Piece [step from 61 to 42] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 40
+x.id is: 45d.item: 42
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 40
+x.id is: 45d.item: 42
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 13d.item: 11
+going up
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 13d.item: 11
+going up
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 40
+x.id is: 45d.item: 42
+The piece is good.
+true piece [step from 45 to 27]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 23
+going up
+x.id is: 27d.item: 21
+x.id is: 27d.item: 24
+Piece [step from 45 to 27] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 45 to 27]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 40
+x.id is: 45d.item: 42
+The piece is good.
+true piece [step from 45 to 27]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 21
+going up
+x.id is: 27d.item: 24
+x.id is: 27d.item: 23
+Piece [step from 45 to 27] placed.
+numberOfPieces: 20
+x.id is: 62d.item: 63
+x.id is: 62d.item: 66
+x.id is: 62d.item: 65
+The piece is good.
+true piece [step from 62 to 72]
+Placing step move.
+x.id is: 72d.item: 76
+Piece [step from 62 to 72] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 62 to 72]
+x.id is: 62d.item: 63
+x.id is: 62d.item: 65
+x.id is: 62d.item: 66
+The piece is good.
+true piece [step from 62 to 72]
+Placing step move.
+x.id is: 72d.item: 76
+Piece [step from 62 to 72] placed.
+numberOfPieces: 20
+x.id is: 40d.item: 41
+x.id is: 40d.item: 42
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 66d.item: 63
+going up
+x.id is: 66d.item: 65
+false
+This piece would result in a cluster
+Cell in opponent's goal
+x.id is: 21d.item: 23
+x.id is: 21d.item: 24
+x.id is: 21d.item: 27
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 13d.item: 11
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 23
+going up
+x.id is: 27d.item: 24
+x.id is: 27d.item: 21
+false
+This piece would result in a cluster
+x.id is: 40d.item: 41
+x.id is: 40d.item: 42
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 66d.item: 63
+going up
+x.id is: 66d.item: 65
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 66d.item: 63
+going up
+x.id is: 66d.item: 65
+false
+This piece would result in a cluster
+Target cell is not empty
+x.id is: 50d.item: 53
+x.id is: 50d.item: 57
+true
+The piece is good.
+true piece [step from 50 to 26]
+Placing step move.
+x.id is: 26d.item: 23
+going up
+x.id is: 26d.item: 24
+x.id is: 26d.item: 21
+x.id is: 26d.item: 27
+Piece [step from 50 to 26] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 50 to 26]
+x.id is: 50d.item: 53
+x.id is: 50d.item: 57
+true
+The piece is good.
+true piece [step from 50 to 26]
+Placing step move.
+x.id is: 26d.item: 21
+going up
+x.id is: 26d.item: 24
+x.id is: 26d.item: 23
+x.id is: 26d.item: 27
+Piece [step from 50 to 26] placed.
+numberOfPieces: 20
+>>>> Second MachinePlayer <<<< WINS!
+
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+The piece is good.
+true piece [add to 13]
+Placing add move
+Piece [add to 13] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 13]
+The piece is good.
+true piece [add to 13]
+Placing add move
+Piece [add to 13] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 37]
+Placing add move
+Piece [add to 37] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 37]
+The piece is good.
+true piece [add to 37]
+Placing add move
+Piece [add to 37] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 35]
+Placing add move
+x.id is: 35d.item: 37
+Piece [add to 35] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 35]
+The piece is good.
+true piece [add to 35]
+Placing add move
+x.id is: 35d.item: 37
+Piece [add to 35] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+The piece is good.
+true piece [add to 51]
+Placing add move
+Piece [add to 51] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 51]
+The piece is good.
+true piece [add to 51]
+Placing add move
+Piece [add to 51] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 71]
+Placing add move
+Piece [add to 71] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 71]
+The piece is good.
+true piece [add to 71]
+Placing add move
+Piece [add to 71] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 13
+going up
+Piece [add to 14] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 14]
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 13
+going up
+Piece [add to 14] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 11]
+Placing add move
+x.id is: 11d.item: 13
+x.id is: 11d.item: 14
+Piece [add to 11] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 11]
+The piece is good.
+true piece [add to 11]
+Placing add move
+x.id is: 11d.item: 13
+x.id is: 11d.item: 14
+Piece [add to 11] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 25]
+Placing add move
+Piece [add to 25] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 25]
+true
+The piece is good.
+true piece [add to 25]
+Placing add move
+Piece [add to 25] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 41]
+Placing add move
+Piece [add to 41] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 41]
+The piece is good.
+true piece [add to 41]
+Placing add move
+Piece [add to 41] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+The piece is good.
+true piece [add to 12]
+Placing add move
+x.id is: 12d.item: 13
+x.id is: 12d.item: 14
+x.id is: 12d.item: 11
+going up
+Piece [add to 12] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 12]
+The piece is good.
+true piece [add to 12]
+Placing add move
+x.id is: 12d.item: 13
+x.id is: 12d.item: 14
+x.id is: 12d.item: 11
+going up
+Piece [add to 12] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+The piece is good.
+true piece [add to 73]
+Placing add move
+x.id is: 73d.item: 71
+going up
+Piece [add to 73] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 73]
+The piece is good.
+true piece [add to 73]
+Placing add move
+x.id is: 73d.item: 71
+going up
+Piece [add to 73] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 64]
+Placing add move
+Piece [add to 64] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 64]
+The piece is good.
+true piece [add to 64]
+Placing add move
+Piece [add to 64] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 23]
+Placing add move
+x.id is: 23d.item: 25
+Piece [add to 23] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 23]
+true
+The piece is good.
+true piece [add to 23]
+Placing add move
+x.id is: 23d.item: 25
+Piece [add to 23] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 44]
+Placing add move
+x.id is: 44d.item: 41
+going up
+Piece [add to 44] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 44]
+The piece is good.
+true piece [add to 44]
+Placing add move
+x.id is: 44d.item: 41
+going up
+Piece [add to 44] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 21]
+Placing add move
+x.id is: 21d.item: 25
+x.id is: 21d.item: 23
+Piece [add to 21] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 21]
+true
+The piece is good.
+true piece [add to 21]
+Placing add move
+x.id is: 21d.item: 25
+x.id is: 21d.item: 23
+Piece [add to 21] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 42]
+Placing add move
+x.id is: 42d.item: 41
+going up
+x.id is: 42d.item: 44
+Piece [add to 42] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 42]
+true
+The piece is good.
+true piece [add to 42]
+Placing add move
+x.id is: 42d.item: 41
+going up
+x.id is: 42d.item: 44
+Piece [add to 42] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 53]
+Placing add move
+x.id is: 53d.item: 51
+going up
+Piece [add to 53] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 53]
+The piece is good.
+true piece [add to 53]
+Placing add move
+x.id is: 53d.item: 51
+going up
+Piece [add to 53] placed.
+numberOfPieces: 17
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+The piece is good.
+true piece [add to 67]
+Placing add move
+x.id is: 67d.item: 64
+going up
+Piece [add to 67] placed.
+numberOfPieces: 18
+Second MachinePlayer makes a move: [add to 67]
+The piece is good.
+true piece [add to 67]
+Placing add move
+x.id is: 67d.item: 64
+going up
+Piece [add to 67] placed.
+numberOfPieces: 18
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 56]
+Placing add move
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 53
+Piece [add to 56] placed.
+numberOfPieces: 19
+MachinePlayer makes a move: [add to 56]
+The piece is good.
+true piece [add to 56]
+Placing add move
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 53
+Piece [add to 56] placed.
+numberOfPieces: 19
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 45]
+Placing add move
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 44
+x.id is: 45d.item: 42
+Piece [add to 45] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [add to 45]
+true
+The piece is good.
+true piece [add to 45]
+Placing add move
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 44
+x.id is: 45d.item: 42
+Piece [add to 45] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 73d.item: 71
+going up
+false
+This piece would result in a cluster
+Cell in opponent's goal
+x.id is: 11d.item: 13
+x.id is: 11d.item: 14
+x.id is: 11d.item: 12
+true
+The piece is good.
+true piece [step from 11 to 61]
+Placing step move.
+x.id is: 61d.item: 64
+x.id is: 61d.item: 67
+Piece [step from 11 to 61] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 11 to 61]
+x.id is: 11d.item: 13
+x.id is: 11d.item: 14
+x.id is: 11d.item: 12
+true
+The piece is good.
+true piece [step from 11 to 61]
+Placing step move.
+x.id is: 61d.item: 64
+x.id is: 61d.item: 67
+Piece [step from 11 to 61] placed.
+numberOfPieces: 20
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 14d.item: 13
+going up
+x.id is: 14d.item: 12
+The piece is good.
+true piece [step from 14 to 20]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 20d.item: 25
+x.id is: 20d.item: 23
+x.id is: 20d.item: 21
+Piece [step from 14 to 20] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 14 to 20]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 14d.item: 13
+going up
+x.id is: 14d.item: 12
+The piece is good.
+true piece [step from 14 to 20]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 20d.item: 25
+x.id is: 20d.item: 23
+x.id is: 20d.item: 21
+Piece [step from 14 to 20] placed.
+numberOfPieces: 20
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 13d.item: 12
+going up
+The piece is good.
+true piece [step from 13 to 01]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+Piece [step from 13 to 01] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 13 to 01]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 13d.item: 12
+going up
+The piece is good.
+true piece [step from 13 to 01]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+Piece [step from 13 to 01] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 25d.item: 23
+going up
+x.id is: 25d.item: 21
+x.id is: 25d.item: 20
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 42d.item: 41
+going up
+x.id is: 42d.item: 44
+x.id is: 42d.item: 45
+The piece is good.
+true piece [step from 42 to 17]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 17d.item: 12
+going up
+Piece [step from 42 to 17] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 42 to 17]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 42d.item: 41
+going up
+x.id is: 42d.item: 44
+x.id is: 42d.item: 45
+The piece is good.
+true piece [step from 42 to 17]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 17d.item: 12
+going up
+Piece [step from 42 to 17] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 25
+x.id is: 21d.item: 23
+x.id is: 21d.item: 20
+going up
+The piece is good.
+true piece [step from 21 to 03]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 3d.item: 1
+going up
+Piece [step from 21 to 03] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 21 to 03]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 23
+x.id is: 21d.item: 20
+going up
+x.id is: 21d.item: 25
+The piece is good.
+true piece [step from 21 to 03]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 3d.item: 1
+going up
+Piece [step from 21 to 03] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 44d.item: 41
+going up
+x.id is: 44d.item: 45
+true
+The piece is good.
+true piece [step from 44 to 52]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 52d.item: 51
+going up
+x.id is: 52d.item: 53
+x.id is: 52d.item: 56
+Piece [step from 44 to 52] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 44 to 52]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 44d.item: 41
+going up
+x.id is: 44d.item: 45
+true
+The piece is good.
+true piece [step from 44 to 52]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 52d.item: 51
+going up
+x.id is: 52d.item: 53
+x.id is: 52d.item: 56
+Piece [step from 44 to 52] placed.
+numberOfPieces: 20
+x.id is: 1d.item: 3
+The piece is good.
+true piece [step from 01 to 76]
+Placing step move.
+x.id is: 76d.item: 71
+going up
+x.id is: 76d.item: 73
+Piece [step from 01 to 76] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 01 to 76]
+x.id is: 1d.item: 3
+The piece is good.
+true piece [step from 01 to 76]
+Placing step move.
+x.id is: 76d.item: 71
+going up
+x.id is: 76d.item: 73
+Piece [step from 01 to 76] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+Target cell is not empty
+x.id is: 12d.item: 17
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 45d.item: 41
+going up
+true
+The piece is good.
+true piece [step from 45 to 24]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 20
+x.id is: 24d.item: 25
+Piece [step from 45 to 24] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 45 to 24]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 45d.item: 41
+going up
+true
+The piece is good.
+true piece [step from 45 to 24]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 24d.item: 25
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 20
+Piece [step from 45 to 24] placed.
+numberOfPieces: 20
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 76d.item: 71
+going up
+x.id is: 76d.item: 73
+false
+This piece would result in a cluster
+x.id is: 35d.item: 37
+The piece is good.
+true piece [step from 35 to 06]
+Placing step move.
+x.id is: 6d.item: 3
+going up
+Piece [step from 35 to 06] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 35 to 06]
+x.id is: 35d.item: 37
+The piece is good.
+true piece [step from 35 to 06]
+Placing step move.
+x.id is: 6d.item: 3
+going up
+Piece [step from 35 to 06] placed.
+numberOfPieces: 20
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 64d.item: 67
+x.id is: 64d.item: 61
+going up
+false
+This piece would result in a cluster
+x.id is: 20d.item: 23
+x.id is: 20d.item: 25
+x.id is: 20d.item: 24
+false
+This piece would result in a cluster
+true
+The piece is good.
+true piece [step from 37 to 10]
+Placing step move.
+x.id is: 10d.item: 17
+x.id is: 10d.item: 12
+Piece [step from 37 to 10] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 37 to 10]
+true
+The piece is good.
+true piece [step from 37 to 10]
+Placing step move.
+x.id is: 10d.item: 12
+x.id is: 10d.item: 17
+Piece [step from 37 to 10] placed.
+numberOfPieces: 20
+>>>> Second MachinePlayer <<<< WINS!
+
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+The piece is good.
+true piece [add to 25]
+Placing add move
+Piece [add to 25] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 25]
+The piece is good.
+true piece [add to 25]
+Placing add move
+Piece [add to 25] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+The piece is good.
+true piece [add to 66]
+Placing add move
+Piece [add to 66] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 66]
+The piece is good.
+true piece [add to 66]
+Placing add move
+Piece [add to 66] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 34]
+Placing add move
+Piece [add to 34] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 34]
+true
+The piece is good.
+true piece [add to 34]
+Placing add move
+Piece [add to 34] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+The piece is good.
+true piece [add to 46]
+Placing add move
+Piece [add to 46] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 46]
+The piece is good.
+true piece [add to 46]
+Placing add move
+Piece [add to 46] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+The piece is good.
+true piece [add to 31]
+Placing add move
+x.id is: 31d.item: 34
+Piece [add to 31] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 31]
+The piece is good.
+true piece [add to 31]
+Placing add move
+x.id is: 31d.item: 34
+Piece [add to 31] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+The piece is good.
+true piece [add to 21]
+Placing add move
+x.id is: 21d.item: 25
+Piece [add to 21] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 21]
+The piece is good.
+true piece [add to 21]
+Placing add move
+x.id is: 21d.item: 25
+Piece [add to 21] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 54]
+Placing add move
+Piece [add to 54] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 54]
+The piece is good.
+true piece [add to 54]
+Placing add move
+Piece [add to 54] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 11]
+Placing add move
+Piece [add to 11] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 11]
+true
+The piece is good.
+true piece [add to 11]
+Placing add move
+Piece [add to 11] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 74]
+Placing add move
+Piece [add to 74] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 74]
+The piece is good.
+true piece [add to 74]
+Placing add move
+Piece [add to 74] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 11
+going up
+Piece [add to 14] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 14]
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 11
+going up
+Piece [add to 14] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+The piece is good.
+true piece [add to 52]
+Placing add move
+x.id is: 52d.item: 54
+Piece [add to 52] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 52]
+The piece is good.
+true piece [add to 52]
+Placing add move
+x.id is: 52d.item: 54
+Piece [add to 52] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+The piece is good.
+true piece [add to 60]
+Placing add move
+x.id is: 60d.item: 66
+Piece [add to 60] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 60]
+The piece is good.
+true piece [add to 60]
+Placing add move
+x.id is: 60d.item: 66
+Piece [add to 60] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+The piece is good.
+true piece [add to 12]
+Placing add move
+x.id is: 12d.item: 11
+going up
+x.id is: 12d.item: 14
+Piece [add to 12] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 12]
+The piece is good.
+true piece [add to 12]
+Placing add move
+x.id is: 12d.item: 11
+going up
+x.id is: 12d.item: 14
+Piece [add to 12] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 13]
+Placing add move
+x.id is: 13d.item: 11
+going up
+x.id is: 13d.item: 14
+x.id is: 13d.item: 12
+Piece [add to 13] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 13]
+true
+The piece is good.
+true piece [add to 13]
+Placing add move
+x.id is: 13d.item: 11
+going up
+x.id is: 13d.item: 14
+x.id is: 13d.item: 12
+Piece [add to 13] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 04]
+Placing add move
+Piece [add to 04] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 04]
+The piece is good.
+true piece [add to 04]
+Placing add move
+Piece [add to 04] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+The piece is good.
+true piece [add to 44]
+Placing add move
+x.id is: 44d.item: 46
+Piece [add to 44] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 44]
+The piece is good.
+true piece [add to 44]
+Placing add move
+x.id is: 44d.item: 46
+Piece [add to 44] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 55]
+Placing add move
+x.id is: 55d.item: 54
+going up
+x.id is: 55d.item: 52
+Piece [add to 55] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 55]
+true
+The piece is good.
+true piece [add to 55]
+Placing add move
+x.id is: 55d.item: 54
+going up
+x.id is: 55d.item: 52
+Piece [add to 55] placed.
+numberOfPieces: 17
+Cell in opponent's goal
+Target cell is not empty
+false
+This piece would result in a cluster
+true
+The piece is good.
+true piece [add to 43]
+Placing add move
+x.id is: 43d.item: 46
+x.id is: 43d.item: 44
+Piece [add to 43] placed.
+numberOfPieces: 18
+Second MachinePlayer makes a move: [add to 43]
+true
+The piece is good.
+true piece [add to 43]
+Placing add move
+x.id is: 43d.item: 46
+x.id is: 43d.item: 44
+Piece [add to 43] placed.
+numberOfPieces: 18
+Cell in opponent's goal
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 32]
+Placing add move
+x.id is: 32d.item: 34
+x.id is: 32d.item: 31
+going up
+Piece [add to 32] placed.
+numberOfPieces: 19
+MachinePlayer makes a move: [add to 32]
+true
+The piece is good.
+true piece [add to 32]
+Placing add move
+x.id is: 32d.item: 34
+x.id is: 32d.item: 31
+going up
+Piece [add to 32] placed.
+numberOfPieces: 19
+Cell in opponent's goal
+The piece is good.
+true piece [add to 63]
+Placing add move
+x.id is: 63d.item: 66
+x.id is: 63d.item: 60
+going up
+Piece [add to 63] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [add to 63]
+The piece is good.
+true piece [add to 63]
+Placing add move
+x.id is: 63d.item: 66
+x.id is: 63d.item: 60
+going up
+Piece [add to 63] placed.
+numberOfPieces: 20
+false
+This piece would result in a cluster
+Cell in opponent's goal
+x.id is: 31d.item: 34
+x.id is: 31d.item: 32
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 54d.item: 52
+going up
+x.id is: 54d.item: 55
+true
+The piece is good.
+true piece [step from 54 to 61]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 61d.item: 66
+x.id is: 61d.item: 60
+going up
+x.id is: 61d.item: 63
+Piece [step from 54 to 61] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 54 to 61]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 54d.item: 52
+going up
+x.id is: 54d.item: 55
+true
+The piece is good.
+true piece [step from 54 to 61]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 61d.item: 66
+x.id is: 61d.item: 60
+going up
+x.id is: 61d.item: 63
+Piece [step from 54 to 61] placed.
+numberOfPieces: 20
+x.id is: 43d.item: 46
+x.id is: 43d.item: 44
+The piece is good.
+true piece [step from 43 to 41]
+Placing step move.
+x.id is: 41d.item: 46
+x.id is: 41d.item: 44
+Piece [step from 43 to 41] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 43 to 41]
+x.id is: 43d.item: 46
+x.id is: 43d.item: 44
+The piece is good.
+true piece [step from 43 to 41]
+Placing step move.
+x.id is: 41d.item: 46
+x.id is: 41d.item: 44
+Piece [step from 43 to 41] placed.
+numberOfPieces: 20
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 61d.item: 66
+x.id is: 61d.item: 60
+going up
+x.id is: 61d.item: 63
+false
+This piece would result in a cluster
+The piece is good.
+true piece [step from 74 to 06]
+Placing step move.
+x.id is: 6d.item: 4
+going up
+Piece [step from 74 to 06] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 74 to 06]
+The piece is good.
+true piece [step from 74 to 06]
+Placing step move.
+x.id is: 6d.item: 4
+going up
+Piece [step from 74 to 06] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+x.id is: 60d.item: 66
+x.id is: 60d.item: 63
+x.id is: 60d.item: 61
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 44d.item: 46
+x.id is: 44d.item: 41
+going up
+true
+The piece is good.
+true piece [step from 44 to 47]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 47d.item: 46
+going up
+x.id is: 47d.item: 41
+Piece [step from 44 to 47] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 44 to 47]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 44d.item: 46
+x.id is: 44d.item: 41
+going up
+true
+The piece is good.
+true piece [step from 44 to 47]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 47d.item: 46
+going up
+x.id is: 47d.item: 41
+Piece [step from 44 to 47] placed.
+numberOfPieces: 20
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+x.id is: 4d.item: 6
+true
+The piece is good.
+true piece [step from 04 to 65]
+Placing step move.
+x.id is: 65d.item: 66
+x.id is: 65d.item: 60
+going up
+x.id is: 65d.item: 63
+x.id is: 65d.item: 61
+Piece [step from 04 to 65] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 04 to 65]
+x.id is: 4d.item: 6
+true
+The piece is good.
+true piece [step from 04 to 65]
+Placing step move.
+x.id is: 65d.item: 66
+x.id is: 65d.item: 63
+going up
+x.id is: 65d.item: 61
+x.id is: 65d.item: 60
+Piece [step from 04 to 65] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 47d.item: 46
+going up
+x.id is: 47d.item: 41
+false
+This piece would result in a cluster
+Cell in opponent's goal
+x.id is: 11d.item: 14
+x.id is: 11d.item: 12
+x.id is: 11d.item: 13
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 14d.item: 12
+going up
+x.id is: 14d.item: 13
+x.id is: 14d.item: 11
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 46d.item: 41
+going up
+x.id is: 46d.item: 47
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 63d.item: 66
+x.id is: 63d.item: 61
+going up
+x.id is: 63d.item: 60
+x.id is: 63d.item: 65
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 63d.item: 66
+x.id is: 63d.item: 61
+going up
+x.id is: 63d.item: 60
+x.id is: 63d.item: 65
+false
+This piece would result in a cluster
+x.id is: 11d.item: 12
+x.id is: 11d.item: 13
+x.id is: 11d.item: 14
+The piece is good.
+true piece [step from 11 to 26]
+Placing step move.
+x.id is: 26d.item: 25
+going up
+x.id is: 26d.item: 21
+Piece [step from 11 to 26] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 11 to 26]
+x.id is: 11d.item: 14
+x.id is: 11d.item: 12
+x.id is: 11d.item: 13
+The piece is good.
+true piece [step from 11 to 26]
+Placing step move.
+x.id is: 26d.item: 25
+going up
+x.id is: 26d.item: 21
+Piece [step from 11 to 26] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 55d.item: 52
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 25d.item: 21
+going up
+x.id is: 25d.item: 26
+true
+The piece is good.
+true piece [step from 25 to 02]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 2d.item: 6
+Piece [step from 25 to 02] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 25 to 02]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 25d.item: 21
+going up
+x.id is: 25d.item: 26
+true
+The piece is good.
+true piece [step from 25 to 02]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 2d.item: 6
+Piece [step from 25 to 02] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 47d.item: 41
+going up
+x.id is: 47d.item: 46
+false
+This piece would result in a cluster
+Target cell is not empty
+x.id is: 21d.item: 26
+true
+The piece is good.
+true piece [step from 21 to 42]
+Placing step move.
+x.id is: 42d.item: 41
+going up
+x.id is: 42d.item: 46
+x.id is: 42d.item: 47
+Piece [step from 21 to 42] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 21 to 42]
+x.id is: 21d.item: 26
+true
+The piece is good.
+true piece [step from 21 to 42]
+Placing step move.
+x.id is: 42d.item: 46
+x.id is: 42d.item: 41
+going up
+x.id is: 42d.item: 47
+Piece [step from 21 to 42] placed.
+numberOfPieces: 20
+>>>> Second MachinePlayer <<<< WINS!
+
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 01]
+Placing add move
+Piece [add to 01] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 01]
+The piece is good.
+true piece [add to 01]
+Placing add move
+Piece [add to 01] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 22]
+Placing add move
+Piece [add to 22] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 22]
+The piece is good.
+true piece [add to 22]
+Placing add move
+Piece [add to 22] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+The piece is good.
+true piece [add to 32]
+Placing add move
+Piece [add to 32] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 32]
+The piece is good.
+true piece [add to 32]
+Placing add move
+Piece [add to 32] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+The piece is good.
+true piece [add to 43]
+Placing add move
+Piece [add to 43] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 43]
+The piece is good.
+true piece [add to 43]
+Placing add move
+Piece [add to 43] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+The piece is good.
+true piece [add to 72]
+Placing add move
+Piece [add to 72] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 72]
+The piece is good.
+true piece [add to 72]
+Placing add move
+Piece [add to 72] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+The piece is good.
+true piece [add to 20]
+Placing add move
+x.id is: 20d.item: 22
+Piece [add to 20] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 20]
+The piece is good.
+true piece [add to 20]
+Placing add move
+x.id is: 20d.item: 22
+Piece [add to 20] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 22
+going up
+x.id is: 24d.item: 20
+Piece [add to 24] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 24]
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 22
+going up
+x.id is: 24d.item: 20
+Piece [add to 24] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+The piece is good.
+true piece [add to 26]
+Placing add move
+x.id is: 26d.item: 22
+going up
+x.id is: 26d.item: 20
+x.id is: 26d.item: 24
+Piece [add to 26] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 26]
+The piece is good.
+true piece [add to 26]
+Placing add move
+x.id is: 26d.item: 22
+going up
+x.id is: 26d.item: 20
+x.id is: 26d.item: 24
+Piece [add to 26] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 42]
+Placing add move
+x.id is: 42d.item: 43
+Piece [add to 42] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 42]
+true
+The piece is good.
+true piece [add to 42]
+Placing add move
+x.id is: 42d.item: 43
+Piece [add to 42] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+The piece is good.
+true piece [add to 65]
+Placing add move
+Piece [add to 65] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 65]
+The piece is good.
+true piece [add to 65]
+Placing add move
+Piece [add to 65] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 56]
+Placing add move
+Piece [add to 56] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 56]
+The piece is good.
+true piece [add to 56]
+Placing add move
+Piece [add to 56] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+The piece is good.
+true piece [add to 40]
+Placing add move
+x.id is: 40d.item: 43
+x.id is: 40d.item: 42
+Piece [add to 40] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 40]
+The piece is good.
+true piece [add to 40]
+Placing add move
+x.id is: 40d.item: 43
+x.id is: 40d.item: 42
+Piece [add to 40] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 12]
+Placing add move
+Piece [add to 12] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 12]
+true
+The piece is good.
+true piece [add to 12]
+Placing add move
+Piece [add to 12] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 12
+going up
+Piece [add to 14] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 14]
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 12
+going up
+Piece [add to 14] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+The piece is good.
+true piece [add to 44]
+Placing add move
+x.id is: 44d.item: 43
+going up
+x.id is: 44d.item: 42
+x.id is: 44d.item: 40
+Piece [add to 44] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 44]
+The piece is good.
+true piece [add to 44]
+Placing add move
+x.id is: 44d.item: 43
+going up
+x.id is: 44d.item: 42
+x.id is: 44d.item: 40
+Piece [add to 44] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 65
+going up
+Piece [add to 66] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 66]
+true
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 65
+going up
+Piece [add to 66] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 62]
+Placing add move
+x.id is: 62d.item: 65
+x.id is: 62d.item: 66
+Piece [add to 62] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 62]
+true
+The piece is good.
+true piece [add to 62]
+Placing add move
+x.id is: 62d.item: 65
+x.id is: 62d.item: 66
+Piece [add to 62] placed.
+numberOfPieces: 17
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Cell in opponent's goal
+The piece is good.
+true piece [add to 61]
+Placing add move
+x.id is: 61d.item: 65
+x.id is: 61d.item: 66
+x.id is: 61d.item: 62
+Piece [add to 61] placed.
+numberOfPieces: 18
+Second MachinePlayer makes a move: [add to 61]
+The piece is good.
+true piece [add to 61]
+Placing add move
+x.id is: 61d.item: 65
+x.id is: 61d.item: 66
+x.id is: 61d.item: 62
+Piece [add to 61] placed.
+numberOfPieces: 18
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 05]
+Placing add move
+x.id is: 5d.item: 1
+going up
+Piece [add to 05] placed.
+numberOfPieces: 19
+MachinePlayer makes a move: [add to 05]
+The piece is good.
+true piece [add to 05]
+Placing add move
+x.id is: 5d.item: 1
+going up
+Piece [add to 05] placed.
+numberOfPieces: 19
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 27]
+Placing add move
+x.id is: 27d.item: 22
+going up
+x.id is: 27d.item: 20
+x.id is: 27d.item: 24
+x.id is: 27d.item: 26
+Piece [add to 27] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [add to 27]
+true
+The piece is good.
+true piece [add to 27]
+Placing add move
+x.id is: 27d.item: 22
+going up
+x.id is: 27d.item: 20
+x.id is: 27d.item: 24
+x.id is: 27d.item: 26
+Piece [add to 27] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 62d.item: 65
+x.id is: 62d.item: 66
+x.id is: 62d.item: 61
+going up
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 42d.item: 43
+x.id is: 42d.item: 40
+going up
+x.id is: 42d.item: 44
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 62d.item: 65
+x.id is: 62d.item: 66
+x.id is: 62d.item: 61
+going up
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Cell in opponent's goal
+The piece is good.
+true piece [step from 56 to 76]
+Placing step move.
+x.id is: 76d.item: 72
+going up
+Piece [step from 56 to 76] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 56 to 76]
+The piece is good.
+true piece [step from 56 to 76]
+Placing step move.
+x.id is: 76d.item: 72
+going up
+Piece [step from 56 to 76] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 26d.item: 22
+going up
+x.id is: 26d.item: 20
+x.id is: 26d.item: 24
+x.id is: 26d.item: 27
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 14d.item: 12
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+x.id is: 20d.item: 22
+x.id is: 20d.item: 24
+x.id is: 20d.item: 27
+x.id is: 20d.item: 26
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 22
+going up
+x.id is: 27d.item: 24
+x.id is: 27d.item: 26
+x.id is: 27d.item: 20
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 43d.item: 42
+going up
+x.id is: 43d.item: 40
+x.id is: 43d.item: 44
+false
+This piece would result in a cluster
+x.id is: 20d.item: 22
+x.id is: 20d.item: 24
+x.id is: 20d.item: 26
+x.id is: 20d.item: 27
+true
+The piece is good.
+true piece [step from 20 to 34]
+Placing step move.
+x.id is: 34d.item: 32
+going up
+Piece [step from 20 to 34] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 20 to 34]
+x.id is: 20d.item: 22
+x.id is: 20d.item: 24
+x.id is: 20d.item: 26
+x.id is: 20d.item: 27
+true
+The piece is good.
+true piece [step from 20 to 34]
+Placing step move.
+x.id is: 34d.item: 32
+going up
+Piece [step from 20 to 34] placed.
+numberOfPieces: 20
+x.id is: 72d.item: 76
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+x.id is: 1d.item: 5
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+x.id is: 32d.item: 34
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 24d.item: 22
+going up
+x.id is: 24d.item: 26
+x.id is: 24d.item: 27
+true
+The piece is good.
+true piece [step from 24 to 04]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 4d.item: 5
+x.id is: 4d.item: 1
+going up
+Piece [step from 24 to 04] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 24 to 04]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 24d.item: 22
+going up
+x.id is: 24d.item: 26
+x.id is: 24d.item: 27
+true
+The piece is good.
+true piece [step from 24 to 04]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 4d.item: 1
+going up
+x.id is: 4d.item: 5
+Piece [step from 24 to 04] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 43d.item: 42
+going up
+x.id is: 43d.item: 40
+x.id is: 43d.item: 44
+The piece is good.
+true piece [step from 43 to 10]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 10d.item: 12
+x.id is: 10d.item: 14
+Piece [step from 43 to 10] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 43 to 10]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 43d.item: 40
+going up
+x.id is: 43d.item: 44
+x.id is: 43d.item: 42
+The piece is good.
+true piece [step from 43 to 10]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 10d.item: 12
+x.id is: 10d.item: 14
+Piece [step from 43 to 10] placed.
+numberOfPieces: 20
+x.id is: 1d.item: 5
+x.id is: 1d.item: 4
+The piece is good.
+true piece [step from 01 to 24]
+Placing step move.
+x.id is: 24d.item: 22
+going up
+x.id is: 24d.item: 26
+x.id is: 24d.item: 27
+Piece [step from 01 to 24] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 01 to 24]
+x.id is: 1d.item: 5
+x.id is: 1d.item: 4
+The piece is good.
+true piece [step from 01 to 24]
+Placing step move.
+x.id is: 24d.item: 22
+going up
+x.id is: 24d.item: 26
+x.id is: 24d.item: 27
+Piece [step from 01 to 24] placed.
+numberOfPieces: 20
+x.id is: 40d.item: 42
+x.id is: 40d.item: 44
+false
+This piece would result in a cluster
+x.id is: 61d.item: 65
+x.id is: 61d.item: 66
+x.id is: 61d.item: 62
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 27d.item: 22
+going up
+x.id is: 27d.item: 26
+x.id is: 27d.item: 24
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 34d.item: 32
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+x.id is: 40d.item: 42
+x.id is: 40d.item: 44
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 65d.item: 66
+x.id is: 65d.item: 62
+going up
+x.id is: 65d.item: 61
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 14d.item: 12
+going up
+x.id is: 14d.item: 10
+true
+The piece is good.
+true piece [step from 14 to 30]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 30d.item: 32
+x.id is: 30d.item: 34
+Piece [step from 14 to 30] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 14 to 30]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 14d.item: 12
+going up
+x.id is: 14d.item: 10
+true
+The piece is good.
+true piece [step from 14 to 30]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 30d.item: 34
+x.id is: 30d.item: 32
+Piece [step from 14 to 30] placed.
+numberOfPieces: 20
+>>>> MachinePlayer <<<< WINS!
+
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+The piece is good.
+true piece [add to 45]
+Placing add move
+Piece [add to 45] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 45]
+The piece is good.
+true piece [add to 45]
+Placing add move
+Piece [add to 45] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+The piece is good.
+true piece [add to 51]
+Placing add move
+Piece [add to 51] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 51]
+The piece is good.
+true piece [add to 51]
+Placing add move
+Piece [add to 51] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+The piece is good.
+true piece [add to 06]
+Placing add move
+Piece [add to 06] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 06]
+The piece is good.
+true piece [add to 06]
+Placing add move
+Piece [add to 06] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+The piece is good.
+true piece [add to 13]
+Placing add move
+Piece [add to 13] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 13]
+The piece is good.
+true piece [add to 13]
+Placing add move
+Piece [add to 13] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 53]
+Placing add move
+x.id is: 53d.item: 51
+going up
+Piece [add to 53] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 53]
+The piece is good.
+true piece [add to 53]
+Placing add move
+x.id is: 53d.item: 51
+going up
+Piece [add to 53] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+The piece is good.
+true piece [add to 27]
+Placing add move
+Piece [add to 27] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 27]
+The piece is good.
+true piece [add to 27]
+Placing add move
+Piece [add to 27] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+The piece is good.
+true piece [add to 66]
+Placing add move
+Piece [add to 66] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 66]
+The piece is good.
+true piece [add to 66]
+Placing add move
+Piece [add to 66] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 36]
+Placing add move
+Piece [add to 36] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 36]
+true
+The piece is good.
+true piece [add to 36]
+Placing add move
+Piece [add to 36] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 12]
+Placing add move
+x.id is: 12d.item: 13
+Piece [add to 12] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 12]
+The piece is good.
+true piece [add to 12]
+Placing add move
+x.id is: 12d.item: 13
+Piece [add to 12] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 60]
+Placing add move
+x.id is: 60d.item: 66
+Piece [add to 60] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 60]
+true
+The piece is good.
+true piece [add to 60]
+Placing add move
+x.id is: 60d.item: 66
+Piece [add to 60] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+The piece is good.
+true piece [add to 74]
+Placing add move
+Piece [add to 74] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 74]
+The piece is good.
+true piece [add to 74]
+Placing add move
+Piece [add to 74] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 56]
+Placing add move
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 53
+Piece [add to 56] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 56]
+The piece is good.
+true piece [add to 56]
+Placing add move
+x.id is: 56d.item: 51
+going up
+x.id is: 56d.item: 53
+Piece [add to 56] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 34]
+Placing add move
+x.id is: 34d.item: 36
+Piece [add to 34] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 34]
+true
+The piece is good.
+true piece [add to 34]
+Placing add move
+x.id is: 34d.item: 36
+Piece [add to 34] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+The piece is good.
+true piece [add to 20]
+Placing add move
+x.id is: 20d.item: 27
+Piece [add to 20] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 20]
+The piece is good.
+true piece [add to 20]
+Placing add move
+x.id is: 20d.item: 27
+Piece [add to 20] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 16]
+Placing add move
+x.id is: 16d.item: 13
+going up
+x.id is: 16d.item: 12
+Piece [add to 16] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 16]
+true
+The piece is good.
+true piece [add to 16]
+Placing add move
+x.id is: 16d.item: 13
+going up
+x.id is: 16d.item: 12
+Piece [add to 16] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 27
+x.id is: 24d.item: 20
+going up
+Piece [add to 24] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 24]
+true
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 27
+x.id is: 24d.item: 20
+going up
+Piece [add to 24] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 73]
+Placing add move
+x.id is: 73d.item: 74
+Piece [add to 73] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 73]
+true
+The piece is good.
+true piece [add to 73]
+Placing add move
+x.id is: 73d.item: 74
+Piece [add to 73] placed.
+numberOfPieces: 17
+Cell in opponent's goal
+Target cell is not empty
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 54]
+Placing add move
+x.id is: 54d.item: 51
+going up
+x.id is: 54d.item: 53
+x.id is: 54d.item: 56
+Piece [add to 54] placed.
+numberOfPieces: 18
+Second MachinePlayer makes a move: [add to 54]
+The piece is good.
+true piece [add to 54]
+Placing add move
+x.id is: 54d.item: 51
+going up
+x.id is: 54d.item: 53
+x.id is: 54d.item: 56
+Piece [add to 54] placed.
+numberOfPieces: 18
+Cell in opponent's goal
+Target cell is not empty
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+Target cell is not empty
+The piece is good.
+true piece [add to 71]
+Placing add move
+x.id is: 71d.item: 74
+x.id is: 71d.item: 73
+Piece [add to 71] placed.
+numberOfPieces: 19
+MachinePlayer makes a move: [add to 71]
+The piece is good.
+true piece [add to 71]
+Placing add move
+x.id is: 71d.item: 74
+x.id is: 71d.item: 73
+Piece [add to 71] placed.
+numberOfPieces: 19
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 64]
+Placing add move
+x.id is: 64d.item: 66
+x.id is: 64d.item: 60
+going up
+Piece [add to 64] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [add to 64]
+true
+The piece is good.
+true piece [add to 64]
+Placing add move
+x.id is: 64d.item: 66
+x.id is: 64d.item: 60
+going up
+Piece [add to 64] placed.
+numberOfPieces: 20
+>>>> Second MachinePlayer <<<< WINS!
+
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+The piece is good.
+true piece [add to 12]
+Placing add move
+Piece [add to 12] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 12]
+The piece is good.
+true piece [add to 12]
+Placing add move
+Piece [add to 12] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 53]
+Placing add move
+Piece [add to 53] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 53]
+The piece is good.
+true piece [add to 53]
+Placing add move
+Piece [add to 53] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+The piece is good.
+true piece [add to 34]
+Placing add move
+Piece [add to 34] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 34]
+The piece is good.
+true piece [add to 34]
+Placing add move
+Piece [add to 34] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 67]
+Placing add move
+Piece [add to 67] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 67]
+The piece is good.
+true piece [add to 67]
+Placing add move
+Piece [add to 67] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+The piece is good.
+true piece [add to 05]
+Placing add move
+Piece [add to 05] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 05]
+The piece is good.
+true piece [add to 05]
+Placing add move
+Piece [add to 05] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+The piece is good.
+true piece [add to 27]
+Placing add move
+Piece [add to 27] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 27]
+The piece is good.
+true piece [add to 27]
+Placing add move
+Piece [add to 27] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 01]
+Placing add move
+x.id is: 1d.item: 5
+Piece [add to 01] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 01]
+true
+The piece is good.
+true piece [add to 01]
+Placing add move
+x.id is: 1d.item: 5
+Piece [add to 01] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+The piece is good.
+true piece [add to 51]
+Placing add move
+x.id is: 51d.item: 53
+Piece [add to 51] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 51]
+The piece is good.
+true piece [add to 51]
+Placing add move
+x.id is: 51d.item: 53
+Piece [add to 51] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 67
+Piece [add to 66] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 66]
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 67
+Piece [add to 66] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 26]
+Placing add move
+x.id is: 26d.item: 27
+Piece [add to 26] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 26]
+true
+The piece is good.
+true piece [add to 26]
+Placing add move
+x.id is: 26d.item: 27
+Piece [add to 26] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 32]
+Placing add move
+x.id is: 32d.item: 34
+Piece [add to 32] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 32]
+The piece is good.
+true piece [add to 32]
+Placing add move
+x.id is: 32d.item: 34
+Piece [add to 32] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+Target cell is not empty
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 43]
+Placing add move
+Piece [add to 43] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 43]
+true
+The piece is good.
+true piece [add to 43]
+Placing add move
+Piece [add to 43] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 72]
+Placing add move
+Piece [add to 72] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 72]
+The piece is good.
+true piece [add to 72]
+Placing add move
+Piece [add to 72] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 47]
+Placing add move
+x.id is: 47d.item: 43
+going up
+Piece [add to 47] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 47]
+The piece is good.
+true piece [add to 47]
+Placing add move
+x.id is: 47d.item: 43
+going up
+Piece [add to 47] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+The piece is good.
+true piece [add to 64]
+Placing add move
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+Piece [add to 64] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 64]
+The piece is good.
+true piece [add to 64]
+Placing add move
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+Piece [add to 64] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 40]
+Placing add move
+x.id is: 40d.item: 43
+x.id is: 40d.item: 47
+Piece [add to 40] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 40]
+true
+The piece is good.
+true piece [add to 40]
+Placing add move
+x.id is: 40d.item: 43
+x.id is: 40d.item: 47
+Piece [add to 40] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 12
+going up
+Piece [add to 14] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 14]
+true
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 12
+going up
+Piece [add to 14] placed.
+numberOfPieces: 17
+>>>> MachinePlayer <<<< WINS!
+
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+The piece is good.
+true piece [add to 45]
+Placing add move
+Piece [add to 45] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 45]
+The piece is good.
+true piece [add to 45]
+Placing add move
+Piece [add to 45] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+The piece is good.
+true piece [add to 26]
+Placing add move
+Piece [add to 26] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 26]
+The piece is good.
+true piece [add to 26]
+Placing add move
+Piece [add to 26] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+The piece is good.
+true piece [add to 53]
+Placing add move
+Piece [add to 53] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 53]
+The piece is good.
+true piece [add to 53]
+Placing add move
+Piece [add to 53] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 40]
+Placing add move
+x.id is: 40d.item: 45
+Piece [add to 40] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 40]
+The piece is good.
+true piece [add to 40]
+Placing add move
+x.id is: 40d.item: 45
+Piece [add to 40] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+The piece is good.
+true piece [add to 32]
+Placing add move
+Piece [add to 32] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 32]
+The piece is good.
+true piece [add to 32]
+Placing add move
+Piece [add to 32] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 37]
+Placing add move
+x.id is: 37d.item: 32
+going up
+Piece [add to 37] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 37]
+true
+The piece is good.
+true piece [add to 37]
+Placing add move
+x.id is: 37d.item: 32
+going up
+Piece [add to 37] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 62]
+Placing add move
+Piece [add to 62] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 62]
+true
+The piece is good.
+true piece [add to 62]
+Placing add move
+Piece [add to 62] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+Target cell is not empty
+Cell in opponent's goal
+The piece is good.
+true piece [add to 60]
+Placing add move
+x.id is: 60d.item: 62
+Piece [add to 60] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 60]
+The piece is good.
+true piece [add to 60]
+Placing add move
+x.id is: 60d.item: 62
+Piece [add to 60] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 13]
+Placing add move
+Piece [add to 13] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 13]
+The piece is good.
+true piece [add to 13]
+Placing add move
+Piece [add to 13] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 23]
+Placing add move
+x.id is: 23d.item: 26
+Piece [add to 23] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 23]
+The piece is good.
+true piece [add to 23]
+Placing add move
+x.id is: 23d.item: 26
+Piece [add to 23] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 21]
+Placing add move
+x.id is: 21d.item: 26
+x.id is: 21d.item: 23
+Piece [add to 21] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 21]
+true
+The piece is good.
+true piece [add to 21]
+Placing add move
+x.id is: 21d.item: 26
+x.id is: 21d.item: 23
+Piece [add to 21] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+The piece is good.
+true piece [add to 10]
+Placing add move
+x.id is: 10d.item: 13
+Piece [add to 10] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 10]
+The piece is good.
+true piece [add to 10]
+Placing add move
+x.id is: 10d.item: 13
+Piece [add to 10] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+false
+This piece would result in a cluster
+Target cell is not empty
+false
+This piece would result in a cluster
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 26
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+Piece [add to 24] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 24]
+true
+The piece is good.
+true piece [add to 24]
+Placing add move
+x.id is: 24d.item: 26
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+Piece [add to 24] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Cell in opponent's goal
+The piece is good.
+true piece [add to 67]
+Placing add move
+x.id is: 67d.item: 62
+going up
+x.id is: 67d.item: 60
+Piece [add to 67] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 67]
+The piece is good.
+true piece [add to 67]
+Placing add move
+x.id is: 67d.item: 62
+going up
+x.id is: 67d.item: 60
+Piece [add to 67] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 62
+going up
+x.id is: 66d.item: 60
+x.id is: 66d.item: 67
+Piece [add to 66] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 66]
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 62
+going up
+x.id is: 66d.item: 60
+x.id is: 66d.item: 67
+Piece [add to 66] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 20]
+Placing add move
+x.id is: 20d.item: 26
+x.id is: 20d.item: 23
+x.id is: 20d.item: 21
+x.id is: 20d.item: 24
+Piece [add to 20] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 20]
+true
+The piece is good.
+true piece [add to 20]
+Placing add move
+x.id is: 20d.item: 26
+x.id is: 20d.item: 23
+x.id is: 20d.item: 21
+x.id is: 20d.item: 24
+Piece [add to 20] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+Target cell is not empty
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 05]
+Placing add move
+Piece [add to 05] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 05]
+The piece is good.
+true piece [add to 05]
+Placing add move
+Piece [add to 05] placed.
+numberOfPieces: 17
+Cell in opponent's goal
+The piece is good.
+true piece [add to 64]
+Placing add move
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+Piece [add to 64] placed.
+numberOfPieces: 18
+Second MachinePlayer makes a move: [add to 64]
+The piece is good.
+true piece [add to 64]
+Placing add move
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+Piece [add to 64] placed.
+numberOfPieces: 18
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+Target cell is not empty
+false
+This piece would result in a cluster
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 16]
+Placing add move
+x.id is: 16d.item: 13
+going up
+x.id is: 16d.item: 10
+Piece [add to 16] placed.
+numberOfPieces: 19
+MachinePlayer makes a move: [add to 16]
+true
+The piece is good.
+true piece [add to 16]
+Placing add move
+x.id is: 16d.item: 13
+going up
+x.id is: 16d.item: 10
+Piece [add to 16] placed.
+numberOfPieces: 19
+Cell in opponent's goal
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 34]
+Placing add move
+x.id is: 34d.item: 32
+going up
+x.id is: 34d.item: 37
+Piece [add to 34] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [add to 34]
+true
+The piece is good.
+true piece [add to 34]
+Placing add move
+x.id is: 34d.item: 32
+going up
+x.id is: 34d.item: 37
+Piece [add to 34] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+Target cell is not empty
+x.id is: 32d.item: 37
+x.id is: 32d.item: 34
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+x.id is: 32d.item: 37
+x.id is: 32d.item: 34
+The piece is good.
+true piece [step from 32 to 01]
+Placing step move.
+x.id is: 1d.item: 5
+Piece [step from 32 to 01] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 32 to 01]
+x.id is: 32d.item: 37
+x.id is: 32d.item: 34
+The piece is good.
+true piece [step from 32 to 01]
+Placing step move.
+x.id is: 1d.item: 5
+Piece [step from 32 to 01] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 37d.item: 34
+going up
+false
+This piece would result in a cluster
+x.id is: 34d.item: 37
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+x.id is: 64d.item: 66
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 26d.item: 23
+going up
+x.id is: 26d.item: 21
+x.id is: 26d.item: 24
+x.id is: 26d.item: 20
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+x.id is: 60d.item: 62
+x.id is: 60d.item: 67
+x.id is: 60d.item: 66
+x.id is: 60d.item: 64
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+x.id is: 10d.item: 13
+x.id is: 10d.item: 16
+The piece is good.
+true piece [step from 10 to 52]
+Placing step move.
+x.id is: 52d.item: 53
+Piece [step from 10 to 52] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 10 to 52]
+x.id is: 10d.item: 13
+x.id is: 10d.item: 16
+The piece is good.
+true piece [step from 10 to 52]
+Placing step move.
+x.id is: 52d.item: 53
+Piece [step from 10 to 52] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 26
+x.id is: 24d.item: 23
+going up
+x.id is: 24d.item: 21
+x.id is: 24d.item: 20
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 53d.item: 52
+going up
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 62d.item: 60
+going up
+x.id is: 62d.item: 67
+x.id is: 62d.item: 66
+x.id is: 62d.item: 64
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 26
+x.id is: 21d.item: 23
+x.id is: 21d.item: 20
+going up
+x.id is: 21d.item: 24
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 16d.item: 13
+going up
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 53d.item: 52
+going up
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 53d.item: 52
+going up
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 53d.item: 52
+going up
+true
+The piece is good.
+true piece [step from 53 to 44]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 44d.item: 45
+x.id is: 44d.item: 40
+going up
+Piece [step from 53 to 44] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 53 to 44]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 53d.item: 52
+going up
+true
+The piece is good.
+true piece [step from 53 to 44]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 44d.item: 45
+x.id is: 44d.item: 40
+going up
+Piece [step from 53 to 44] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 23d.item: 21
+going up
+x.id is: 23d.item: 24
+x.id is: 23d.item: 20
+x.id is: 23d.item: 26
+The piece is good.
+true piece [step from 23 to 22]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 22d.item: 21
+going up
+x.id is: 22d.item: 24
+x.id is: 22d.item: 20
+x.id is: 22d.item: 26
+Piece [step from 23 to 22] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 23 to 22]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 23d.item: 26
+x.id is: 23d.item: 20
+going up
+x.id is: 23d.item: 24
+x.id is: 23d.item: 21
+The piece is good.
+true piece [step from 23 to 22]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 22d.item: 26
+x.id is: 22d.item: 20
+going up
+x.id is: 22d.item: 24
+x.id is: 22d.item: 21
+Piece [step from 23 to 22] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 66d.item: 60
+going up
+x.id is: 66d.item: 67
+x.id is: 66d.item: 64
+x.id is: 66d.item: 62
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 66d.item: 60
+going up
+x.id is: 66d.item: 67
+x.id is: 66d.item: 64
+x.id is: 66d.item: 62
+true
+The piece is good.
+true piece [step from 66 to 72]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+Piece [step from 66 to 72] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 66 to 72]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 66d.item: 62
+going up
+x.id is: 66d.item: 67
+x.id is: 66d.item: 64
+x.id is: 66d.item: 60
+true
+The piece is good.
+true piece [step from 66 to 72]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+Piece [step from 66 to 72] placed.
+numberOfPieces: 20
+x.id is: 60d.item: 62
+x.id is: 60d.item: 67
+x.id is: 60d.item: 64
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 62
+going up
+x.id is: 67d.item: 64
+x.id is: 67d.item: 60
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 62
+going up
+x.id is: 67d.item: 64
+x.id is: 67d.item: 60
+false
+This piece would result in a cluster
+Target cell is not empty
+x.id is: 40d.item: 45
+x.id is: 40d.item: 44
+true
+The piece is good.
+true piece [step from 40 to 65]
+Placing step move.
+x.id is: 65d.item: 62
+going up
+x.id is: 65d.item: 64
+x.id is: 65d.item: 60
+x.id is: 65d.item: 67
+Piece [step from 40 to 65] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 40 to 65]
+x.id is: 40d.item: 45
+x.id is: 40d.item: 44
+true
+The piece is good.
+true piece [step from 40 to 65]
+Placing step move.
+x.id is: 65d.item: 60
+going up
+x.id is: 65d.item: 67
+x.id is: 65d.item: 64
+x.id is: 65d.item: 62
+Piece [step from 40 to 65] placed.
+numberOfPieces: 20
+x.id is: 44d.item: 45
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 26
+x.id is: 21d.item: 20
+going up
+x.id is: 21d.item: 24
+x.id is: 21d.item: 22
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 16d.item: 13
+going up
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 16d.item: 13
+going up
+false
+This piece would result in a cluster
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 26
+x.id is: 21d.item: 20
+going up
+x.id is: 21d.item: 24
+x.id is: 21d.item: 22
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 26
+x.id is: 21d.item: 20
+going up
+x.id is: 21d.item: 24
+x.id is: 21d.item: 22
+false
+This piece would result in a cluster
+x.id is: 1d.item: 5
+The piece is good.
+true piece [step from 01 to 75]
+Placing step move.
+x.id is: 75d.item: 72
+going up
+Piece [step from 01 to 75] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 01 to 75]
+x.id is: 1d.item: 5
+The piece is good.
+true piece [step from 01 to 75]
+Placing step move.
+x.id is: 75d.item: 72
+going up
+Piece [step from 01 to 75] placed.
+numberOfPieces: 20
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 26d.item: 21
+going up
+x.id is: 26d.item: 24
+x.id is: 26d.item: 20
+x.id is: 26d.item: 22
+true
+The piece is good.
+true piece [step from 26 to 41]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 41d.item: 45
+x.id is: 41d.item: 44
+Piece [step from 26 to 41] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 26 to 41]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 26d.item: 20
+going up
+x.id is: 26d.item: 24
+x.id is: 26d.item: 22
+x.id is: 26d.item: 21
+true
+The piece is good.
+true piece [step from 26 to 41]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 41d.item: 45
+x.id is: 41d.item: 44
+Piece [step from 26 to 41] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 20
+going up
+x.id is: 24d.item: 22
+x.id is: 24d.item: 21
+false
+This piece would result in a cluster
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 44d.item: 45
+x.id is: 44d.item: 41
+going up
+false
+This piece would result in a cluster
+x.id is: 72d.item: 75
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 62d.item: 60
+going up
+x.id is: 62d.item: 67
+x.id is: 62d.item: 64
+x.id is: 62d.item: 65
+true
+The piece is good.
+true piece [step from 62 to 74]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 74d.item: 75
+x.id is: 74d.item: 72
+going up
+Piece [step from 62 to 74] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 62 to 74]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 62d.item: 64
+x.id is: 62d.item: 60
+going up
+x.id is: 62d.item: 67
+x.id is: 62d.item: 65
+true
+The piece is good.
+true piece [step from 62 to 74]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 74d.item: 72
+going up
+x.id is: 74d.item: 75
+Piece [step from 62 to 74] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 64
+going up
+x.id is: 67d.item: 60
+x.id is: 67d.item: 65
+The piece is good.
+true piece [step from 67 to 14]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 14d.item: 13
+going up
+x.id is: 14d.item: 16
+Piece [step from 67 to 14] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 67 to 14]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 60
+going up
+x.id is: 67d.item: 64
+x.id is: 67d.item: 65
+The piece is good.
+true piece [step from 67 to 14]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 14d.item: 13
+going up
+x.id is: 14d.item: 16
+Piece [step from 67 to 14] placed.
+numberOfPieces: 20
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 45d.item: 41
+going up
+x.id is: 45d.item: 44
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 20
+going up
+x.id is: 21d.item: 22
+x.id is: 21d.item: 24
+true
+The piece is good.
+true piece [step from 21 to 62]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 62d.item: 60
+going up
+x.id is: 62d.item: 64
+x.id is: 62d.item: 65
+Piece [step from 21 to 62] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 21 to 62]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 21d.item: 24
+x.id is: 21d.item: 20
+going up
+x.id is: 21d.item: 22
+true
+The piece is good.
+true piece [step from 21 to 62]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 62d.item: 64
+x.id is: 62d.item: 60
+going up
+x.id is: 62d.item: 65
+Piece [step from 21 to 62] placed.
+numberOfPieces: 20
+x.id is: 60d.item: 64
+x.id is: 60d.item: 65
+x.id is: 60d.item: 62
+true
+The piece is good.
+true piece [step from 60 to 35]
+Placing step move.
+x.id is: 35d.item: 37
+x.id is: 35d.item: 34
+going up
+Piece [step from 60 to 35] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 60 to 35]
+x.id is: 60d.item: 64
+x.id is: 60d.item: 65
+x.id is: 60d.item: 62
+true
+The piece is good.
+true piece [step from 60 to 35]
+Placing step move.
+x.id is: 35d.item: 37
+x.id is: 35d.item: 34
+going up
+Piece [step from 60 to 35] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 20
+going up
+x.id is: 24d.item: 22
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 20
+going up
+x.id is: 24d.item: 22
+The piece is good.
+true piece [step from 24 to 32]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 32d.item: 37
+x.id is: 32d.item: 34
+x.id is: 32d.item: 35
+Piece [step from 24 to 32] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 24 to 32]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 20
+going up
+x.id is: 24d.item: 22
+The piece is good.
+true piece [step from 24 to 32]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 32d.item: 37
+x.id is: 32d.item: 34
+x.id is: 32d.item: 35
+Piece [step from 24 to 32] placed.
+numberOfPieces: 20
+x.id is: 20d.item: 22
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 34d.item: 37
+x.id is: 34d.item: 35
+x.id is: 34d.item: 32
+going up
+The piece is good.
+true piece [step from 34 to 60]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 60d.item: 64
+x.id is: 60d.item: 65
+x.id is: 60d.item: 62
+Piece [step from 34 to 60] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 34 to 60]
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 34d.item: 37
+x.id is: 34d.item: 35
+x.id is: 34d.item: 32
+going up
+The piece is good.
+true piece [step from 34 to 60]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 60d.item: 64
+x.id is: 60d.item: 65
+x.id is: 60d.item: 62
+Piece [step from 34 to 60] placed.
+numberOfPieces: 20
+x.id is: 72d.item: 75
+x.id is: 72d.item: 74
+true
+The piece is good.
+true piece [step from 72 to 03]
+Placing step move.
+x.id is: 3d.item: 5
+Piece [step from 72 to 03] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 72 to 03]
+x.id is: 72d.item: 75
+x.id is: 72d.item: 74
+true
+The piece is good.
+true piece [step from 72 to 03]
+Placing step move.
+x.id is: 3d.item: 5
+Piece [step from 72 to 03] placed.
+numberOfPieces: 20
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 37d.item: 35
+going up
+x.id is: 37d.item: 32
+The piece is good.
+true piece [step from 37 to 67]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 64
+going up
+x.id is: 67d.item: 65
+x.id is: 67d.item: 62
+x.id is: 67d.item: 60
+Piece [step from 37 to 67] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 37 to 67]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 37d.item: 35
+going up
+x.id is: 37d.item: 32
+The piece is good.
+true piece [step from 37 to 67]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 64
+going up
+x.id is: 67d.item: 65
+x.id is: 67d.item: 62
+x.id is: 67d.item: 60
+Piece [step from 37 to 67] placed.
+numberOfPieces: 20
+x.id is: 13d.item: 16
+x.id is: 13d.item: 14
+The piece is good.
+true piece [step from 13 to 24]
+Placing step move.
+x.id is: 24d.item: 20
+going up
+x.id is: 24d.item: 22
+Piece [step from 13 to 24] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 13 to 24]
+x.id is: 13d.item: 16
+x.id is: 13d.item: 14
+The piece is good.
+true piece [step from 13 to 24]
+Placing step move.
+x.id is: 24d.item: 22
+going up
+x.id is: 24d.item: 20
+Piece [step from 13 to 24] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 64d.item: 65
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 64d.item: 65
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+true
+The piece is good.
+true piece [step from 64 to 57]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 57d.item: 52
+going up
+Piece [step from 64 to 57] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 64 to 57]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 64d.item: 65
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+true
+The piece is good.
+true piece [step from 64 to 57]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 57d.item: 52
+going up
+Piece [step from 64 to 57] placed.
+numberOfPieces: 20
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 20
+going up
+x.id is: 24d.item: 22
+true
+The piece is good.
+true piece [step from 24 to 23]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 23d.item: 20
+going up
+x.id is: 23d.item: 22
+Piece [step from 24 to 23] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 24 to 23]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 24d.item: 22
+going up
+x.id is: 24d.item: 20
+true
+The piece is good.
+true piece [step from 24 to 23]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 23d.item: 22
+going up
+x.id is: 23d.item: 20
+Piece [step from 24 to 23] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+Target cell is not empty
+x.id is: 20d.item: 22
+x.id is: 20d.item: 23
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 65
+going up
+x.id is: 67d.item: 62
+x.id is: 67d.item: 60
+false
+This piece would result in a cluster
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+x.id is: 35d.item: 32
+going up
+false
+This piece would result in a cluster
+Target cell is not empty
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+x.id is: 52d.item: 57
+false
+This piece would result in a cluster
+x.id is: 52d.item: 57
+true
+The piece is good.
+true piece [step from 52 to 64]
+Placing step move.
+x.id is: 64d.item: 65
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+Piece [step from 52 to 64] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 52 to 64]
+x.id is: 52d.item: 57
+true
+The piece is good.
+true piece [step from 52 to 64]
+Placing step move.
+x.id is: 64d.item: 65
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+Piece [step from 52 to 64] placed.
+numberOfPieces: 20
+Cell in opponent's goal
+Cell in opponent's goal
+x.id is: 3d.item: 5
+false
+This piece would result in a cluster
+x.id is: 3d.item: 5
+true
+The piece is good.
+true piece [step from 03 to 52]
+Placing step move.
+x.id is: 52d.item: 57
+Piece [step from 03 to 52] placed.
+numberOfPieces: 20
+MachinePlayer makes a move: [step from 03 to 52]
+x.id is: 3d.item: 5
+true
+The piece is good.
+true piece [step from 03 to 52]
+Placing step move.
+x.id is: 52d.item: 57
+Piece [step from 03 to 52] placed.
+numberOfPieces: 20
+x.id is: 60d.item: 65
+x.id is: 60d.item: 62
+x.id is: 60d.item: 67
+x.id is: 60d.item: 64
+false
+This piece would result in a cluster
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 64d.item: 65
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 67
+x.id is: 64d.item: 60
+false
+This piece would result in a cluster
+Target cell is not empty
+Target cell is not empty
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 67d.item: 65
+going up
+x.id is: 67d.item: 62
+x.id is: 67d.item: 60
+x.id is: 67d.item: 64
+false
+This piece would result in a cluster
+Cell in opponent's goal
+Cell in opponent's goal
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 64d.item: 65
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+true
+The piece is good.
+true piece [step from 64 to 12]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 12d.item: 16
+x.id is: 12d.item: 14
+Piece [step from 64 to 12] placed.
+numberOfPieces: 20
+Second MachinePlayer makes a move: [step from 64 to 12]
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 64d.item: 65
+x.id is: 64d.item: 62
+going up
+x.id is: 64d.item: 60
+x.id is: 64d.item: 67
+true
+The piece is good.
+true piece [step from 64 to 12]
+Placing step move.
+dist x to d.item: 0
+dist x to up: 11
+going up
+dist x to d.item: 0
+dist x to up: 0
+x.id is: 12d.item: 16
+x.id is: 12d.item: 14
+Piece [step from 64 to 12] placed.
+numberOfPieces: 20
+>>>> MachinePlayer <<<< WINS!
+
+MachinePlayer is WHITE
+Second MachinePlayer is BLACK
+Cell in opponent's goal
+The piece is good.
+true piece [add to 13]
+Placing add move
+Piece [add to 13] placed.
+numberOfPieces: 1
+MachinePlayer makes a move: [add to 13]
+The piece is good.
+true piece [add to 13]
+Placing add move
+Piece [add to 13] placed.
+numberOfPieces: 1
+Cell in opponent's goal
+The piece is good.
+true piece [add to 40]
+Placing add move
+Piece [add to 40] placed.
+numberOfPieces: 2
+Second MachinePlayer makes a move: [add to 40]
+The piece is good.
+true piece [add to 40]
+Placing add move
+Piece [add to 40] placed.
+numberOfPieces: 2
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 61]
+Placing add move
+Piece [add to 61] placed.
+numberOfPieces: 3
+MachinePlayer makes a move: [add to 61]
+The piece is good.
+true piece [add to 61]
+Placing add move
+Piece [add to 61] placed.
+numberOfPieces: 3
+Cell in opponent's goal
+The piece is good.
+true piece [add to 20]
+Placing add move
+Piece [add to 20] placed.
+numberOfPieces: 4
+Second MachinePlayer makes a move: [add to 20]
+The piece is good.
+true piece [add to 20]
+Placing add move
+Piece [add to 20] placed.
+numberOfPieces: 4
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 75]
+Placing add move
+Piece [add to 75] placed.
+numberOfPieces: 5
+MachinePlayer makes a move: [add to 75]
+The piece is good.
+true piece [add to 75]
+Placing add move
+Piece [add to 75] placed.
+numberOfPieces: 5
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+The piece is good.
+true piece [add to 55]
+Placing add move
+Piece [add to 55] placed.
+numberOfPieces: 6
+Second MachinePlayer makes a move: [add to 55]
+The piece is good.
+true piece [add to 55]
+Placing add move
+Piece [add to 55] placed.
+numberOfPieces: 6
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 56]
+Placing add move
+x.id is: 56d.item: 55
+going up
+Piece [add to 56] placed.
+numberOfPieces: 7
+MachinePlayer makes a move: [add to 56]
+The piece is good.
+true piece [add to 56]
+Placing add move
+x.id is: 56d.item: 55
+going up
+Piece [add to 56] placed.
+numberOfPieces: 7
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 13
+going up
+Piece [add to 14] placed.
+numberOfPieces: 8
+Second MachinePlayer makes a move: [add to 14]
+The piece is good.
+true piece [add to 14]
+Placing add move
+x.id is: 14d.item: 13
+going up
+Piece [add to 14] placed.
+numberOfPieces: 8
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 02]
+Placing add move
+Piece [add to 02] placed.
+numberOfPieces: 9
+MachinePlayer makes a move: [add to 02]
+true
+The piece is good.
+true piece [add to 02]
+Placing add move
+Piece [add to 02] placed.
+numberOfPieces: 9
+Cell in opponent's goal
+The piece is good.
+true piece [add to 16]
+Placing add move
+x.id is: 16d.item: 13
+going up
+x.id is: 16d.item: 14
+Piece [add to 16] placed.
+numberOfPieces: 10
+Second MachinePlayer makes a move: [add to 16]
+The piece is good.
+true piece [add to 16]
+Placing add move
+x.id is: 16d.item: 13
+going up
+x.id is: 16d.item: 14
+Piece [add to 16] placed.
+numberOfPieces: 10
+Cell in opponent's goal
+Target cell is not empty
+The piece is good.
+true piece [add to 34]
+Placing add move
+Piece [add to 34] placed.
+numberOfPieces: 11
+MachinePlayer makes a move: [add to 34]
+The piece is good.
+true piece [add to 34]
+Placing add move
+Piece [add to 34] placed.
+numberOfPieces: 11
+Cell in opponent's goal
+The piece is good.
+true piece [add to 60]
+Placing add move
+x.id is: 60d.item: 61
+Piece [add to 60] placed.
+numberOfPieces: 12
+Second MachinePlayer makes a move: [add to 60]
+The piece is good.
+true piece [add to 60]
+Placing add move
+x.id is: 60d.item: 61
+Piece [add to 60] placed.
+numberOfPieces: 12
+Cell in opponent's goal
+Cell in opponent's goal
+Target cell is not empty
+true
+The piece is good.
+true piece [add to 52]
+Placing add move
+x.id is: 52d.item: 55
+x.id is: 52d.item: 56
+Piece [add to 52] placed.
+numberOfPieces: 13
+MachinePlayer makes a move: [add to 52]
+true
+The piece is good.
+true piece [add to 52]
+Placing add move
+x.id is: 52d.item: 55
+x.id is: 52d.item: 56
+Piece [add to 52] placed.
+numberOfPieces: 13
+Cell in opponent's goal
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+Cell in opponent's goal
+true
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 61
+going up
+x.id is: 66d.item: 60
+Piece [add to 66] placed.
+numberOfPieces: 14
+Second MachinePlayer makes a move: [add to 66]
+true
+The piece is good.
+true piece [add to 66]
+Placing add move
+x.id is: 66d.item: 61
+going up
+x.id is: 66d.item: 60
+Piece [add to 66] placed.
+numberOfPieces: 14
+Cell in opponent's goal
+Cell in opponent's goal
+Cell in opponent's goal
+false
+This piece would result in a cluster
+Cell in opponent's goal
+false
+This piece would result in a cluster
+The piece is good.
+true piece [add to 06]
+Placing add move
+x.id is: 6d.item: 2
+going up
+Piece [add to 06] placed.
+numberOfPieces: 15
+MachinePlayer makes a move: [add to 06]
+The piece is good.
+true piece [add to 06]
+Placing add move
+x.id is: 6d.item: 2
+going up
+Piece [add to 06] placed.
+numberOfPieces: 15
+Cell in opponent's goal
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+false
+This piece would result in a cluster
+true
+The piece is good.
+true piece [add to 23]
+Placing add move
+x.id is: 23d.item: 20
+going up
+Piece [add to 23] placed.
+numberOfPieces: 16
+Second MachinePlayer makes a move: [add to 23]
+true
+The piece is good.
+true piece [add to 23]
+Placing add move
+x.id is: 23d.item: 20
+going up
+Piece [add to 23] placed.
+numberOfPieces: 16
+Cell in opponent's goal
+The piece is good.
+true piece [add to 31]
+Placing add move
+x.id is: 31d.item: 34
+Piece [add to 31] placed.
+numberOfPieces: 17
+MachinePlayer makes a move: [add to 31]
+The piece is good.
+true piece [add to 31]
+Placing add move
+x.id is: 31d.item: 34
+Piece [add to 31] placed.
+numberOfPieces: 17
+Cell in opponent's goal
+The piece is good.
+true piece [add to 36]
+Placing add move
+x.id is: 36d.item: 34
+going up
+x.id is: 36d.item: 31
+Piece [add to 36] placed.
+numberOfPieces: 18
+Second MachinePlayer makes a move: [add to 36]
+The piece is good.
+true piece [add to 36]
+Placing add move
+x.id is: 36d.item: 34
+going up
+x.id is: 36d.item: 31
+Piece [add to 36] placed.
+numberOfPieces: 18
+Cell in opponent's goal
+Target cell is not empty
+Target cell is not empty
+Cell in opponent's goal
+The piece is good.
+true piece [add to 54]
+Placing add move
+x.id is: 54d.item: 55
+x.id is: 54d.item: 56
+x.id is: 54d.item: 52
+going up
+Piece [add to 54] placed.
+numberOfPieces: 19
+MachinePlayer makes a move: [add to 54]
+The piece is good.
+true piece [add to 54]
+Placing add move
+x.id is: 54d.item: 55
+x.id is: 54d.item: 56
+x.id is: 54d.item: 52
+going up
+Piece [add to 54] placed.
+numberOfPieces: 19
+>>>> MachinePlayer <<<< WINS!
+

@@ -1,0 +1,285 @@
+package player;
+
+import graph.*;
+import list.*;
+
+public class Board {
+	
+	public static final int INVALID = -1, EMPTY = 2, BLACK = 0, WHITE = 1;
+
+	private int width = 8, height = 8;
+	
+	private Graph board;
+	
+    private int round = 1;  // denotes whose turn it is
+	
+	private int numberOfPieces = 0;
+
+  /**
+   *  Board() is a constructor that creates an empty ocean having width x and
+   *  height y
+   *  @param x is the width of the ocean.
+   *  @param y is the height of the ocean.
+   */
+
+    public Board() {
+		board = new Graph();
+	}
+	/**
+	 * Helper method.  Converts an x, y coordinate to an ID.
+	 * @param x x coordinate
+	 * @param y y coordinate
+	 * @return
+	 */
+	public int getId(int x, int y) {
+		return Integer.parseInt(x + "" + y);
+	}
+
+    public Graph getBoard() {
+	return this.board;
+    }
+	
+	public int getPieces() {
+		return numberOfPieces;
+	}
+
+	/**
+	 * Attempts to identify the piece with an ID of id at coordinate x, y in the form of contents
+	 * 
+	 * @param x x coordinate of the piece
+	 * @param y y coordinate of the piece
+	 * @return the color of the piece occupying the coordinate (x, y) with ID id: invalid, black, white, or empty
+	 */
+	public int getColor(int id) {
+	  Vertex v = board.findPiece(id);
+	  
+	  if (v == null) {
+		  return EMPTY;
+	  }
+	  else if (id == 0 || id == 7 || id == 70 || id == 77) {
+		  return INVALID;
+	  }
+	  else {
+		  return v.color();
+	  }
+	}
+	/**
+	 * Checks to see if the player has attempted a valid move.
+	 * 
+	 * RULES:
+	 * 
+	 * 	1)  No chip may be placed in any of the four corners. 
+  	 *	2)  No chip may be placed in a goal of the opposite color.
+  	 *	3)  No chip may be placed in a square that is already occupied.
+  	 *  4)	A player may not have more than two chips in a connected group, whether
+     * 		connected orthogonally or diagonally.
+	 * @param move is the move object the player creates
+	 * @param player the color of the piece chosen for placement
+	 * @return true if the player has made a valid move, false if not.
+	 * 
+	 */
+    public boolean validateRules(Move m, int player) {
+		int x, y;
+		int x2 = 0, y2 = 0;
+		if (m.moveKind == Move.QUIT) {
+			return true;
+		} else if(m.moveKind == Move.ADD){
+		    if (numberOfPieces == 20) {
+			  return false;
+			  } 
+			y = m.y1;
+			x = m.x1;
+		} else {
+			y = m.y1;
+			x = m.x1;
+			x2 = m.x2;
+			y2 = m.y2;
+			if (x == x2 && y == y2) {
+				return false;
+			} else if (this.board.getEList().findVertex(getId(x2, y2)) == null) {
+			  return false;
+			  } else if (this.board.getEList().findVertex(getId(x2, y2)) != null) {
+				if (getColor(getId(x2, y2)) != player) {
+					return false;
+				}
+			}
+		}
+		if (getColor(getId(x, y)) == INVALID) {
+			System.out.println("Invalid color");
+			return false; // in the corners
+		} else if (this.board.getEList().findVertex(getId(x, y)) != null) {
+			System.out.println("Target cell is not empty");
+			return false; // target cell isn't empty
+		} else if (((player == BLACK) && (x == 0 || x == height-1)) || ((player == WHITE) && (y == 0 || y == height-1))) {
+			System.out.println("Cell in opponent's goal");
+			return false; // target cell is in opponent's goal
+		} else if (!canPlaceNeighbors(m, player)) {
+			System.out.println("This piece would result in a cluster");
+			return false; // resulting cluster too big
+		} else {
+			System.out.println("The piece is good.");
+			return true; // move is good
+		}
+		
+	}
+	/**
+	 * Performs a valid move
+	 */
+	public void placePiece(Move move, int player) {
+		if (move.moveKind == Move.ADD) {
+			System.out.println("Placing add move");
+			board.insertVertex(getId(move.x1, move.y1), player);
+			numberOfPieces++;
+		}
+		else if (move.moveKind == Move.STEP){
+			System.out.println("Placing step move.");
+			board.removeVertex(getId(move.x2, move.y2));
+			board.insertVertex(getId(move.x1, move.y1), player);
+		}
+		else {
+			System.out.println("Player " + player + " has quit the game.");
+			System.exit(0);
+		}
+		System.out.println("Piece " + move + " placed.");
+	}
+
+    public boolean canPlaceNeighbors(Move move, int player) {
+    int count = 0;
+    int new_id = -1;
+    int found_id = -1;
+    if(move.moveKind == Move.STEP) {
+		board.removeVertex(getId(move.x2, move.y2));
+			new_id = getId(move.x1, move.y1);
+		} else if(move.moveKind == Move.ADD) {
+			new_id = getId(move.x1, move.y1);
+		}
+    for (int i = ((Math.round(new_id / 10) * 10) - 10); i < ((Math.round(new_id / 10) * 10) + 11); i = i + 10) {
+		for(int j = new_id % 10 - 1; j < new_id % 10 + 2; j++) {
+			Vertex found = board.getEList().findVertex(i + j);
+			if(found != null) {
+				if(found.id() != new_id) {
+					if(found.color() == player) {
+								found_id = found.id() ;
+								count++;
+					}
+				}
+			}
+		}
+    }
+    if(move.moveKind == Move.STEP) {
+	board.insertVertex(getId(move.x2, move.y2), player);
+    }
+
+    if(count > 1) {
+		System.out.println("false");
+		return false;
+    } else if (count == 1) {
+	int count2 = 0;
+	for (int k = ((Math.round(found_id / 10) * 10) - 10); k < ((Math.round(found_id / 10) * 10) + 11); k = k + 10) {
+	    for(int l = found_id % 10 - 1; l < found_id % 10 + 2; l++) {
+		Vertex found2 = board.getEList().findVertex(k + l);
+			if(found2 != null) {
+				if(found2.id() != found_id) {
+					if(found2.color() == player) {
+						count2++;
+					}
+				}
+			}
+	    }
+	}
+	if(count2 > 0) {
+		System.out.println("false");
+	    return false;
+	} else {
+		System.out.println("true");
+	    return true;
+	}
+    } else {
+	return true;
+    }
+}
+
+    public int numOfClusters(int player) {
+	int large_count = 0;
+        for (DListNode d : this.board.getEList()) {
+	    int new_id = ((Vertex) d.item).id();
+            int count = 0;
+   	for (int i = ((Math.round(new_id / 10) * 10) - 10); i < ((Math.round(new_id / 10) * 10) + 11); i = i + 10) {
+	    for(int j = new_id % 10 - 1; j < new_id % 10 + 2; j++) {
+		Vertex found = board.findPiece(i + j);
+		if(found != null) {
+		    if(found.id() != new_id) {
+			if(found.color() == player) {
+			    count++;
+			}
+		    }
+		}
+	    }
+	}
+	if (count == 1) {
+	  large_count++;
+	}
+	}	
+	return large_count / 2;
+    }
+
+  public String toString() {
+	  return board.toString();
+  }
+
+    public static void main(String[] args) {
+    
+    	
+	Board gb = new Board();
+	/* System.out.println(gb);
+        Move next = new Move(1, 1);
+        gb.placePiece(next, 1);
+        System.out.println(gb);
+        Move next2 = new Move(0, 0);
+        gb.placePiece(next2, 2);
+        System.out.println(gb);
+        Move next3 = new Move(0, 1);
+        gb.placePiece(next3, 1);
+        System.out.println(gb);
+        Move next4 = new Move(1, 0);
+        gb.placePiece(next4, 2);
+        System.out.println(gb);
+        Move next5 = new Move(2, 1);
+        gb.placePiece(next5, 1);
+        gb.board.insertEdge(11, 21);
+        System.out.println(gb);
+        gb.placePiece(new Move(4, 6), 2);*/
+	Move m1 = new Move(0, 0);
+	gb.placePiece(m1, 1);
+	System.out.println(m1);
+	Move m2 = new Move(7, 0);
+        gb.placePiece(m2, 1);
+        System.out.println(m2);
+	Move m3 = new Move(0, 7);
+        gb.placePiece(m3, 1);
+        System.out.println(m3);
+	Move m4 = new Move(7, 7);
+        gb.placePiece(m4, 1);
+        System.out.println(m4);
+	Move m5 = new Move(4, 0);
+	gb.placePiece(m5, 1);
+	System.out.println(m5);
+	Move m6 = new Move(0, 5);
+	gb.placePiece(m6, 0);
+	System.out.println(m6);
+	gb.placePiece(new Move(3, 4), 1);
+	gb.placePiece(new Move(3, 5), 1);
+	gb.placePiece(new Move(4, 4), 1);
+        System.out.println("Num of Clusters: " + gb.numOfClusters(1));
+        System.out.println(gb.board.prettyPrint());
+        System.out.println("DFS");
+        gb.board.dfs(gb.board.findPiece(11));
+
+    }
+}
+
+        
+	    
+        
+
+    

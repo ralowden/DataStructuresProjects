@@ -1,0 +1,176 @@
+/** 
+ * We presume that the Game itself will change an internal graph everytime it 
+ * updates the current board; as such, we'll be manipulating the board in this 
+ * class. 
+
+ * We also presume that possibleMoves (the method which spawns all possible 
+ * moves) returns a dictionary (AS IT SHOULD!) :) AND takes in a board
+
+ */
+
+package dict;
+
+import graph.*; 
+import player.*;
+import java.util.*;
+import list.*;
+
+public class Minimax {
+
+	Dict dict = new Dict();
+    int depth;
+    
+    public Minimax(Graph board) {
+    	//this.dict = possibleMoves(board);
+    }
+    
+    public Minimax(Dict newDict) {
+    	this.dict = newDict;
+    }
+
+//    public Move minimax(int depth, int color) {
+//    	if(depth == 0) {
+//    		dict = applyHeuristic(dict, color);
+//    		return chooseBestMove(dict);
+//    	} else {
+//	    	dict = applyHeuristic(dict);
+//	    	dict = alphaBetaPruning(dict);
+//	    	Item node = dict.head;
+//	    	Board board;
+//	    	Dict newDict = new Dict();
+//	    	while(node != null) {
+//			board = node.item().currentBoard();
+//				= possibleMoves();
+//
+//				minimax(depth-1);
+//	    	}
+//    }
+//
+//    public int heuristic(Graph board, int color) {
+//    	//returns an int of how good or bad the move is. 
+//    	return 0;
+//    }
+/*
+ * The scoring heuristic will create a score based on these factors
+ * if you have a win +100
+ * if the opponent has a win -100
+ * for n number of pieces in your goal,  +(n * .1)
+ * for n number of groups of two pieces next to each other, -(n * .2)
+ * for n  max depth from your goal, +(n * 5)
+ * for opponents n max depth from goal, -(n * 5)
+ * for n number of edges of yours, + n
+ * for n number of edges opponents', - n
+ */
+ public int heuristic(Graph board, int color) {
+	int score = 0;
+	int enemy = 0;
+	if (color == 1){
+		enemy = 2;
+	} else enemy = 1;
+	//if color wins
+	if ( /*color wins*/ true){
+			score += 100;
+    }
+	//if enemy wins
+	if(/*enemy wins*/ true){
+		score -= 100;
+	}
+	//number of pieces in your goal
+	score += /*how many in your goal?*/ 0;
+	//number of pieces next to each other
+	score -= /*stuff*/ 0;
+	//your depth
+	score += /*stuff*/ 0;
+	//their depth
+	score -= /*stuff*/ 0;
+	//your edges 
+	score += 0;
+	//their edges
+	score -= 0;
+	return score;
+}
+    
+// 	public Dict applyHerustic(Dict dict, int color) {
+// 		Item node = dict.head();
+//		Graph board;
+//		int score;
+//		while(node != null) {
+//			board = node.board();
+//			score = heuristic(board, color);
+//			node.updateScore(score);
+//			node = node.next();
+//		}
+//		return 
+// 	}
+
+ public Dict alphaBetaPruning(Dict dict, int color) {
+	//Complicated stuff... 
+	//Will delete nodes from dict
+	return dict; 
+ }
+    
+
+
+/*Laundry list:
+  SList
+  --head(); (get first node);
+  --KEEP TRACK OF END NODE
+  --append();
+  SListNode
+  --item();
+  --next();
+
+ */ 
+
+public static DList possibleMoves(Board bd, int player) {
+    DList ans = new DList();
+    Move newMove;
+    if(bd.getBoard().getSize() < 20) {
+	for(int i = 0; i < 8; i++) {
+	    for(int j = 0; j < 8; j++) {
+		newMove = new Move(i, j);
+		if(bd.validateRules(newMove, player)) {
+		    ans.insertFront(newMove);
+		}
+	    }
+	}
+    } else {
+	for(DListNode d : bd.getBoard().getEList()) {
+	    for(int i = 0; i < 8; i++) {
+		for(int j = 0; j < 8; j++) {
+		    if(((Vertex) d.item).color() == player) {
+		      newMove = new Move(((Vertex) d.item).id() / 10, ((Vertex) d.item).id() % 10, i, j);
+		      if(bd.validateRules(newMove, player)) {
+			 ans.insertFront(newMove);
+		      }
+		    }
+		}
+	    }
+	}
+    }
+    return ans;
+}
+
+    public static void main(String[] args) {
+	Board bd = new Board();
+        bd.placePiece(new Move(1, 1), 1);
+	bd.placePiece(new Move(1, 2), 1);
+	bd.placePiece(new Move(1, 3), 1);
+	bd.placePiece(new Move(1, 4), 1);
+	bd.placePiece(new Move(1, 5), 1);
+	bd.placePiece(new Move(1, 6), 1);
+	bd.placePiece(new Move(1, 7), 1);
+	bd.placePiece(new Move(2, 1), 1);
+	bd.placePiece(new Move(2, 2), 1);
+	bd.placePiece(new Move(2, 3), 1);
+	bd.placePiece(new Move(2, 3), 1);
+	bd.placePiece(new Move(2, 3), 1);
+        System.out.println("Board: ");
+        System.out.println(bd);
+        System.out.println("Possible Moves: ");         
+	System.out.println(Minimax.possibleMoves(bd, 1));
+    }
+
+
+
+}

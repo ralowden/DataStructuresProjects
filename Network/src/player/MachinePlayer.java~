@@ -1,0 +1,72 @@
+/* MachinePlayer.java */
+
+package player;
+
+import java.util.Random;
+
+/**
+ *  An implementation of an automatic Network player.  Keeps track of moves
+ *  made by both players.  Can select a move for itself.
+ */
+public class MachinePlayer extends Player {
+
+    Board currentBoard;
+    int color;
+    int opponent;
+    int searchDepth;
+    // String myName inherited from Player.
+
+    public void updateBoard(Board b) {
+	currentBoard = b;
+    }
+
+  /**
+   *  Creates a machine player with the given color.
+   *  @param color the color of the player making the move.  Can be white or black.  White moves first.
+   */
+  public MachinePlayer(int color) {
+	currentBoard = new Board(9, 9);
+    this.color = color;
+    opponent = (color == 1) ? 0 : 1;
+    searchDepth = 3;
+  }
+
+  // Creates a machine player with the given color and search depth.  Color is
+  // either 0 (black) or 1 (white).  (White has the first move.)
+  public MachinePlayer(int color, int searchDepth) {
+      this.color = color;
+      this.searchDepth = searchDepth;
+  }
+
+  // Returns a new move by "this" player.  Internally records the move (updates
+  // the internal game board) as a move by "this" player.
+  public Move chooseMove() {
+	  int i = (int) (Math.random() * 8);
+	  Move m = new Move((int) (Math.random() * 8), (int) (Math.random() * 8));
+      
+	  while (!currentBoard.placePiece(m, color)); {
+		  m = new Move((int) (Math.random() * 8),(int) (Math.random() * 8));
+	  }
+	  
+	  return m;
+  } 
+
+  // If the Move m is legal, records the move as a move by "this" player
+  // (updates the internal game board) and returns true.  If the move is
+  // illegal, returns false without modifying the internal state of "this"
+  // player.  This method is used to help set up "Network problems" for your
+  // player to solve.
+  public boolean forceMove(Move m) {
+    return (currentBoard.placePiece(m, opponent));
+  }
+  /**
+   * If the Move m is legal, records the move as a move by the opponent
+   * (updates the internal game board) and returns true.  If the move is
+  	* illegal, returns false without modifying the internal state of "this"
+  	* player.  This method allows your opponents to inform you of their moves.
+   */
+	@Override
+	public boolean opponentMove(Move m) {
+		return (currentBoard.placePiece(m, opponent));
+	}
+}

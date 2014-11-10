@@ -1,0 +1,45 @@
+import Graph.*;
+
+public class Item {
+    int score;
+    Move orginial;
+    Move current;
+    Graph currentBoard;
+    Item next;
+
+    public Item(Move original, Graph currentBoard) {
+	this.original = original;
+	this.current = original;
+	this.currentBoard = currentBoard;
+	this.next = null;
+    }
+
+    public void updateCurrent(Move current) {
+	this.current = current;
+    }
+
+    public void updateScore(int score) {
+	this.score = score;
+    }
+
+    public void next(Item next) {
+	this.next = next;
+    }
+
+    public int score() {
+	return score;
+    }
+
+    public Move original() {
+	return original;
+    }
+
+    public Move current() {
+	return current;
+    }
+
+    public Graph board() {
+	return board;
+    }
+
+}

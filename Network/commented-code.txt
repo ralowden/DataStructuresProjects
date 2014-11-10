@@ -1,0 +1,63 @@
+This code contains the code removed from the first version of Board.java.
+
+private int[][] gb;
+
+//    /** Checks to see how many pieces are in a cluster of pieces. A cluster
+//     *  can consist of one or more pieces which includes the original piece.
+//     */
+//	private boolean checkNeighbors(int x, int y, int color) {
+//        int count = 0;
+//        int a = 0;
+//        int b = 0;
+//        int i, j;
+//        for (i = (x - 1); i < (x + 2); i++) {
+//	    for (j = (y - 1); j < (y + 2); j++) {
+//		if ((i == x) && (j == y)) {
+//		} else {
+//                    if (i > 0 && i < this.width && j > 0 && j < this.height) {
+//		      if (getColor(i, j) == color) {
+//			  count++;
+//                          a = i;
+//                          b = j;
+//		      }
+//		    }
+//		}
+//	    }
+//	}
+//        if (count >= 2) {
+//	    return false;
+//	} else if (count == 1) {
+//	    int count2 = 0;
+//            int k, l;
+//	    for (k = (a - 1); k < (a + 2); k++) {
+//		for (l = (b - 1); l < (b + 2); l++) {
+//		    if ((k == a) && (l == b)) {
+//		    } else {
+//                        if ((k >= 0 && k < this.width) && (l >= 0 && l < this.height)) {
+//			    if (getColor(k, l) == color) {
+//      			      count2++;
+//			    }
+//			}
+//		    }
+//		}
+//	    }
+//	    if (count2 >= 1) {
+//		return false;
+//	    } else {
+//		return true;
+//	    }
+//	} else {
+//	    return true;
+//	}
+//	}
+
+
+//    String answer = "";
+//    for (int x = 0; x < height; x++) {
+//      answer = answer + "| ";
+//      for (int y = 0; y < width; y++) {
+//        answer = answer + gb[x][y] + "| ";
+//      }
+//      answer = answer + "\n";
+//    }
+//    return answer;

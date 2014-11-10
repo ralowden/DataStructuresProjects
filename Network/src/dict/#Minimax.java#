@@ -1,0 +1,233 @@
+/** 
+ * Minimax is the class that controls the heuristic and alphaBetaPruning algorithms. Items of this
+ * class have a "Dict" which holds all possible moves spawned from the main function "minimax". 
+
+ * We also presume that possibleMoves (the method which spawns all possible 
+ * moves) returns a dictionary (AS IT SHOULD!) :) AND takes in a board
+
+ */
+
+package dict;
+
+import graph.*; 
+import player.*;
+import list.*;
+import java.util.*;
+
+public class Minimax {
+
+	Dict dict = new Dict();
+	Board board;
+    int depth;
+    int alpha = Integer.MIN_VALUE;
+    int beta = Integer.MAX_VALUE;
+    boolean max = true; 
+    int player;
+    Move bestMove;
+    
+    public Minimax(Board board, int depth, int player) {
+    	this.board = board; 
+    	this.depth = depth;
+    	this.player = player;
+    	this.dict.insertBack(null, board, player);
+    	((Item) dict.back().item()).updatePossMoves(possibleMoves(board,player));
+    }
+    public Minimax(Board board, int player) {
+    	this(board, 3, player);
+    }
+    
+    public Minimax(Dict newDict) {
+    	this.dict = newDict;
+    }
+
+ 
+ /**
+  *   
+  * @param depth the number of turns to search through 
+  * @param color the color of the player whose turn it is
+  * @return the BEST move as determined from the heuristic after searching n (depth) turns
+  */
+    public Move minimax(DListNode current, int depth, int currPlayer) {
+    	Item currItem = (Item) current.item();
+    	System.out.println("\nPARAMETERS OF RECURSION: " + ", " + depth + ", " + currPlayer + currItem.possMoves());
+    	System.out.println("Size of dict = " + dict.length());
+    	/*if(currItem.possMoves().length() == 1) {
+    		return bestMove;
+    	}*/
+		if(currItem.possMoves().isEmpty()) {
+			return bestMove;
+		}
+		
+    	if(currItem.bestMove == null) {
+    		currItem.updateBestMove((Move) currItem.possMoves().front().item());
+    	}
+    	//Denotes if max (computer's turn) or min (other player's turn) 
+    	if(player != currPlayer) {
+    		max = false; 
+    	
+    	}
+       	//Reached end of search; choose max or min value 
+    	if(depth == 0) {
+    		boolean prune = false; 
+    		DListNode child = currItem.possMoves().front();
+    		while(! prune) {
+    			Board tempBoard = currItem.board().copyOf(currItem.board());
+    			tempBoard.placePiece((Move) child.item(), player);
+    			int score = heuristic(tempBoard, player);
+    			//alpha-beta pruning
+    			if(max) {
+    				if(score > currItem.alpha()) {
+    					currItem.updateAlpha(score);
+    					alpha = currItem.alpha();
+    					bestMove = (current == dict.front()) ? (Move) child.item() : currItem.bestMove();
+    				}
+    			} else {
+    				if(score < currItem.beta()) {
+    					currItem.updateBeta(score);
+    					beta = currItem.beta();
+    					currItem.updateBestMove((Move) child.item());
+    					bestMove = (current.prev() == dict.head()) ? (Move) child.item() : currItem.bestMove();
+    				} 
+    				
+    			}
+    			if (currItem.alpha() >= currItem.beta()) {
+					prune = true;
+				}
+    			if(child.next() == currItem.possMoves.head()) {
+    				break;
+    			}
+    			child = child.next();
+    		}
+    		
+    		int tempDepth = depth + 1;
+    		if(current == dict.front()) {
+    			System.out.println("Current is the front of dict");
+    			return bestMove;
+    		} else {
+    			DListNode parent = current.prev();
+    			while(parent != dict.head()) {
+       				System.out.println("parent is not dict.head()");
+        			Item parentItem = (Item) parent.item();
+    				if(parentItem.possMoves().isEmpty()) {
+    					if(parent == dict.front()) {
+    						return minimax(parent, tempDepth, parentItem.color());
+    					}
+    					parent = parent.prev();
+    					//NEED TO update parent's alpha or beta
+    					dict.remove(parent.next().next());
+    					tempDepth++;
+    				} else {
+    					//NEED TO update parent's alpha or beta
+    					dict.remove(parent.next());
+    					System.out.println("Recurring on parent " + parent);
+    					break;
+    				}
+    			}
+    			return minimax(parent, tempDepth, ((Item) parent.item()).color());
+    		}   		
+    	} else {
+    		Board currentBoard = currItem.board().copyOf(currItem.board());
+    		Move nextMove = (Move) currItem.possMoves().front().item();
+    		currentBoard.placePiece(nextMove, switchPlayer(currPlayer)); 
+    		//updating entry in this.dict
+    		this.dict.insertBack(currItem.bestMove(), currentBoard, switchPlayer(currPlayer));
+    		((Item) dict.back().item()).updatePossMoves(possibleMoves(currentBoard,switchPlayer(currPlayer)));
+    		currItem.possMoves().remove(currItem.possMoves().front());
+    		return minimax(dict.back(), depth-1, switchPlayer(currPlayer));
+    	}
+    }
+    
+    private int switchPlayer(int player) {
+    	return (player == 1) ? 0 : 1;
+    }
+     
+/**
+ * Returns a DList of all possible moves for a given board    
+ * @param bd current board
+ * @param player whose turn it is 
+ * @return
+ */
+    public DList possibleMoves(Board bd, int player) {
+        DList ans = new DList();
+        Move newMove;
+        if(bd.getBoard().getSize() < 20) {
+    	for(int i = 0; i < 8; i++) {
+    	    for(int j = 0; j < 8; j++) {
+    		newMove = new Move(i, j);
+    		if(bd.validateRules(newMove, player)) {
+    		    ans.insertFront(newMove);
+    		}
+    		//else System.out.println("Not a valid move: " + i + ", " + j);
+    	    }
+    	}
+        } else {
+    	for(DListNode d : bd.getBoard().getEList()) {
+    	    for(int i = 0; i < 8; i++) {
+    		for(int j = 0; j < 8; j++) {
+    		    newMove = new Move(((Vertex) d.item).id() / 10, ((Vertex) d.item).id() % 10, i, j);
+    		    if(bd.validateRules(newMove, player)) {
+    			ans.insertFront(newMove);
+    		    }
+    		}
+    	    }
+    	}
+        }
+        
+        return ans;
+    }    
+
+/*
+ * The scoring heuristic will create a score based on these factors
+ * if you have a win +100
+ * if the opponent has a win -100
+ * for n number of pieces in your goal,  +(n * 1)
+ * for n number of groups of two pieces next to each other, -(n * 2)
+ * for n  max depth from your goal, +(n * 5)
+ * for opponents n max depth from goal, -(n * 5)
+ * for n number of edges of yours, + n
+ * for n number of edges opponents', - n
+ */
+    public int heuristic(Board board, int color) {
+		//int score = 0;
+		//int enemy = 0;
+		//if (color == 0){
+		//enemy = 1;
+		//} 
+		//if color wins
+		//if ( /*color wins*/ true){
+		//score += 100;
+		//    }
+		//if enemy wins
+		//if(/*enemy wins*/ true){
+		//score -= 100;
+		//}
+		//number of pieces in your goal
+		//score += board.getBoard().numberInGoal(color);
+		//number of pieces next to each other
+		//score -= /*stuff*/ 0;
+		//your depth
+		//score += /*stuff*/ 0;
+		//their depth
+		//score -= /*stuff*/ 0;
+		//your edges
+		//score += board.getBoard().numOfEdges(color) * 3;
+		//their edges
+		//score -= board.getBoard().numOfEdges(enemy) * 3;
+		//return score; 
+    	return (int) (Math.random() * 100);
+		
+}
+   
+ public static void main(String[] args) {
+	 Board bd = new Board();
+	 bd.placePiece(new Move(2,4), 1);
+	 bd.placePiece(new Move(2,5), 1);
+	 bd.placePiece(new Move(1,4), 0);
+	 //System.out.println(bd.getBoard().prettyPrint());
+	 Minimax mm = new Minimax(bd, 2, 1);
+	 Move bestMove = mm.minimax(mm.dict.front(), mm.depth, mm.player);
+	 System.out.println(bestMove);
+	 
+ }
+}
+ 

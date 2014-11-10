@@ -1,0 +1,46 @@
+package player;
+
+public class Piece {
+    
+    protected int x;
+    protected int y;
+    protected int color = 2;
+
+    /** 
+     *  Piece() is a constructor that creates an empty piece at the position (x, y) 
+     *  in the board
+     *  @param x is the x-coordinate of the board
+     *  @param y is the y-coordiante of the board
+     */
+
+    public Piece(int x, int y) {
+	this.x = x;
+	this.y = y;
+    }
+
+    /** 
+     *  Piece() is a constructor that creates a piece at the position (x, y) 
+     *  in the board with an color WHITE or BLACK
+     *  @param x is the x-coordinate of the Board
+     *  @param y is the y-coordinate of the Board
+     *  @param color is the color of the piece to be placed in the cell
+     */
+
+    public Piece(int x, int y, int color) {
+		this.x = x;
+		this.y = y;
+		this.color = color;
+    }
+
+    public String toString() {
+	if (this.color == 2) {
+	    return "  ";
+        } else if (this.color == -1) {
+	    return this.color;
+	} else {
+            return " " + this.color;
+	}
+    }
+}
+
+

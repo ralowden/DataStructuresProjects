@@ -1,0 +1,72 @@
+/* Vertex.java */
+
+package graph;
+
+import list.DListNode;
+import list.EList;
+
+public class Vertex implements Comparable<Vertex>{
+	
+  protected int id;
+  protected boolean visited;
+  private int color;
+  protected EList links;
+	
+  public Vertex(int id, int color) {
+    this.id = id;
+    this.color = color;
+    visited = false;
+    links = new EList();
+  }
+	
+  public EList getLinks() {
+    return links;
+  }
+	
+  public void visit() {
+    visited = !visited;
+  }
+	
+  public boolean visited() {
+    return visited;
+  }
+	
+  public int id() {
+    return id;
+  }
+	
+  public int color() {
+    return color;
+  }
+	
+  @Override
+  public boolean equals(Object that) {
+    return (that instanceof Vertex) ? this.id() == ((Vertex) that).id() && this.color() == ((Vertex) that).color() : false;
+  }
+	
+  public int compareTo(Vertex that) {
+    if (this.id() < that.id()) {
+      return -1;
+    } else if (this.id() > that.id()) {
+        return 1;
+      } else {
+	  return 0;
+        }
+  }
+	
+  @Override
+  public String toString() {
+    String color;
+		
+    if (this.color == -1) {
+      color = "INVALID";
+    } else if (this.color == 0) {
+        color = "EMPTY";
+      } else if (this.color == 1) {
+	  color = "BLACK";
+	} else {
+	    color = "WHITE";
+	  }
+    return "ID: " + id + " " + color + " ";  
+  }
+}

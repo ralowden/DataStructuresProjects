@@ -1,0 +1,112 @@
+/* EList.java */
+/* THIS IS AN AUGMENTED LIST CLASS FOR VERTEX OBJECTS */
+
+package list;
+
+import java.util.Iterator;
+import graph.Vertex;
+
+public class EList extends DList implements Iterable<DListNode>{
+  /* This should be optimized eventually once a sorting algorithm gets implemented */
+
+    /** 
+     *  newNode() returns a new DListNode with Vertex item, a DListNode prev, and a DListNode next
+     *  @param item is a Vertex to be placed in the EList
+     *  @param prev is the prev DListNode in the EList
+     *  @param next is the next DListNode in the Elist
+     *  @return a DListNode with a Vertex item, a DListNode prev, and a DListNode next
+     */
+
+  protected DListNode newNode(Vertex item, DListNode prev, DListNode next) {
+    return new DListNode(item, prev, next);
+  }
+  
+  /**
+   *  EList() is a constructor that creates a new EList with a new sentinal node, head,
+   *  and it's next and prev pointers point to itself (the head) 
+   */
+
+  public EList() {
+    head =  newNode(null, null, null);
+    head.next = head;
+    head.prev = head;
+  }
+
+  /**
+   *  findVertex() Locates a vertex in this EList by its ID.  If the vertex is found return it, otherwise return null.
+   *  @param id is the id of the vertex
+   *  @return the vertex if found, otherwise it returns null
+   */
+  public Vertex findVertex(int id) {
+    if (size == 0) {
+      return null;
+    }
+ 
+    DListNode node = head.next;
+    while (node != head) {
+      if (((Vertex) node.item).id() == id) {
+        return (Vertex) node.item;
+      }
+      node = node.next;
+    }  
+    return null;
+  }
+
+  /**
+   *  removeVertex() Removes a Vertex from this EList, otherwise does nothing.
+   *  @param e is the Vertex that you want to remove from the EList
+   *  @return the Vertex if removed.  If the vertex was not found it returns null
+   */
+  public Vertex removeVertex(Vertex e) {
+    if (size == 0) {
+      return null;
+    }
+	  
+    DListNode node = head.next;
+    while (node != head) {
+      if (e.equals(node.item)) {
+        this.remove(node);
+	return ((Vertex) node.item);
+      }
+      node = node.next;
+    }
+    return null;
+  }
+
+  /**
+   *  @Override
+   */
+  public Iterator<DListNode> iterator() {
+    return new ListIter(this);
+  }
+
+  /**
+   *  toString() prints out the EList with just the Vertices
+   */
+
+  public String toString() {
+    String result = "[ ";
+    DListNode current = head.next;
+		
+    while (current != head) {
+      result += (Vertex) current.item;
+      current = current.next;
+    }
+    return result + " ]\n";
+  }
+  
+  /**
+   *  printDeep() prints out the EList with the Vertices and the Vertix's Links
+   */
+
+  public String printDeep() {
+    String result = "[ ";
+    DListNode current = head.next;
+		
+    while (current != head) {
+      result += ((Vertex) current.item).toString() + " " + ((Vertex) current.item).getLinks();
+      current = current.next;
+    }	
+    return result + " ]";
+  }
+}

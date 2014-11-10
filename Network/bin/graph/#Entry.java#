@@ -1,0 +1,40 @@
+/* THIS IS A MODIFIED DICTIONARY ADT FOR ENTRIES OF TYPE (VERTEX, VERTEX_LIST) */
+
+package graph;
+
+import List.*;
+import graph.Vertex;
+
+public class Entry implements Comparable<Entry>{
+	private Vertex key;
+	private EList value;
+	
+	public Entry(Vertex key, EList value) {
+		this.key = key;
+		this.value = value;
+	}
+	
+	public Vertex key() {
+		return key;
+	}
+	
+	public EList value() {
+		return value;
+	}
+	
+	@Override
+	/**
+	 * Since the vertices have unique IDs it is enough to only compare the IDs.
+	 */
+	public boolean equals(Object that) {
+		return (that instanceof Entry) ? ((Entry) that).key().compareTo(this.key()) == 0 : false;
+	}
+	
+	public int compareTo(Entry that) {
+		return this.key().compareTo(that.key());
+	}
+	
+	public String toString() {
+		return key + " " + value;
+	}
+}

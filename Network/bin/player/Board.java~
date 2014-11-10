@@ -1,0 +1,210 @@
+package player;
+
+public class Board {
+	
+	public static final int INVALID = -1, EMPTY = 2, BLACK = 0, WHITE = 1;
+
+	private int width, height;
+	private Piece[][] gb;
+	
+       	private int round = 1;  // denotes whose turn it is
+
+  /**
+   *  Board() is a constructor that creates an empty ocean having width x and
+   *  height y
+   *  @param x is the width of the ocean.
+   *  @param y is the height of the ocean.
+   */
+
+	public Board(int x, int y) {
+	    width = x;
+	    height = y;
+	    gb = new Piece[width][height];
+	    for (int i = 0; i < width; i++) {
+	    	for (int j = 0; j < height; j++) {
+	    		gb[i][j] = new Piece(i, j);
+	    	}
+	    }
+	    gb[0][0].color = INVALID;
+	    gb[width - 1][0].color = INVALID;
+	    gb[0][height - 1].color = INVALID;
+	    gb[width - 1][height - 1].color = INVALID;
+	}
+	/**
+	 * Attempts to identify the piece at coordinate (x, y) in the form of contents
+	 * 
+	 * @param x x coordinate of the piece
+	 * @param y y coordinate of the piece
+	 * @return the color of the piece occupying the coordinate (x, y): invalid, black, white, or empty
+	 */
+	public int getColor(int x, int y) {
+	  return gb[x][y].color;
+	}
+	/**
+	 * Checks to see if the player has attempted a valid move.
+	 * 
+	 * RULES:
+	 * 
+	 * 	1)  No chip may be placed in any of the four corners. 
+  	 *	2)  No chip may be placed in a goal of the opposite color.
+  	 *	3)  No chip may be placed in a square that is already occupied.
+  	 *  4)	A player may not have more than two chips in a connected group, whether
+     * 		connected orthogonally or diagonally.
+	 * @param move is the move object the player creates
+	 * @param player the color of the piece chosen for placement
+	 * @return true if the player has made a valid move, false if not.
+	 * 
+	 */
+	private boolean validateRules(Move move, int player) {
+		if (getColor(move.x1, move.y1) != EMPTY) { // #1, #3
+			System.out.println("This is an invalid move.");
+			return false;
+		}
+		else if (player != round) { // fail-safe code, not really necessary.  Checks to see if it's the players turn.
+			System.out.println("This is an invalid move.");
+			return false;
+		}
+		else if (player == BLACK && (move.x1 == 0 || move.x1 == width -1)) { //#2
+			System.out.println("This is an invalid move.");
+			return false;
+		}
+		else if (player == WHITE && (move.y1 == 0 || move.y1 == height - 1)) { //#2
+			System.out.println("This is an invalid move.");
+			return false;
+		}
+		else if (!checkNeighbors(move.x1, move.y1, player)) { // # 4
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+	/**
+	 * Performs a valid move
+	 */
+	public void placePiece(Move move, int player) {
+		if (validateRules(move, player)) {
+			if (move.moveKind == move.ADD) {
+				gb[move.x1][move.y1].color = player;
+			}
+			else if (move.moveKind == move.STEP){
+				gb[move.x1][move.y1].color = EMPTY;
+				gb[move.x2][move.y2].color = player;
+			}
+			else {
+				System.out.println("Player " + player + " has quit the game.");
+				System.exit(0);
+			}
+			//	nextRound();
+		}
+		else  {
+			// throw an exception
+		}
+	}
+	/**
+	 *  Advances the board to the next round by changing the player eligible for placing pieces
+	 */
+	private void nextRound() {
+	    boolean hasWon = false;
+	    // if player round.hasWon the game; hasWon = true
+	    // need to write code here to check if for winning connections
+	    if (hasWon == true) {
+		System.out.println("Player " + round + " has won the game!");
+		System.exit(0);
+	    }
+		round = (round == 1) ? 0 : 1; // player number oscillates between 0 and 1.
+		if (round == 1) { // test code to validate whose turn it is.
+		    System.out.println("It is player 1's turn.");
+		}
+		else {
+		    System.out.println("It is player 2's turn.");
+		}
+	}
+    /** Checks to see how many pieces are in a cluster of pieces. A cluster
+     *  can consist of one or more pieces which includes the original piece.
+     */
+	private boolean checkNeighbors(int x, int y, int color) {
+        int count = 0;
+        int a = 0;
+        int b = 0;
+        int i, j;
+        for (i = (x - 1); i < (x + 2); i++) {
+	    for (j = (y - 1); j < (y + 2); j++) {
+		if ((i == x) && (j == y)) {
+		} else {
+                    if (i > 0 && i < this.width && j > 0 && j < this.height) {
+		      if (getColor(i, j) == color) {
+			  count++;
+                          a = i;
+                          b = j;
+		      }
+		    }
+		}
+	    }
+	}
+        if (count >= 2) {
+	    return false;
+	} else if (count == 1) {
+	    int count2 = 0;
+            int k, l;
+	    for (k = (a - 1); k < (a + 2); k++) {
+		for (l = (b - 1); l < (b + 2); l++) {
+		    if ((k == a) && (l == b)) {
+		    } else {
+                        if ((k >= 0 && k < this.width) && (l >= 0 && l < this.height)) {
+			    if (getColor(k, l) == color) {
+      			      count2++;
+			    }
+			}
+		    }
+		}
+	    }
+	    if (count2 >= 1) {
+		return false;
+	    } else {
+		return true;
+	    }
+	} else {
+	    return true;
+	}
+	}
+
+  public String toString() {
+    String answer = "";
+    for (int x = 0; x < height; x++) {
+      answer = answer + "| ";
+      for (int y = 0; y < width; y++) {
+        answer = answer + gb[x][y] + "| ";
+      }
+      answer = answer + "\n";
+    }
+    return answer;
+  }
+
+    public static void main(String[] args) {
+	Board gb = new Board(4, 4);
+        System.out.println(gb);
+        Move next = new Move(1, 1);
+        gb.placePiece(next, 1);
+        System.out.println(gb);
+        Move next2 = new Move(0, 0);
+        gb.placePiece(next2, 1);
+        System.out.println(gb);
+        Move next3 = new Move(0, 1);
+        gb.placePiece(next3, 1);
+        System.out.println(gb);
+        Move next4 = new Move(1, 0);
+        gb.placePiece(next4, 1);
+        System.out.println(gb);
+        Move next5 = new Move(2, 1);
+        gb.placePiece(next5, 1);
+        System.out.println(gb);
+    }
+
+}
+
+        
+	    
+        
+
+    
